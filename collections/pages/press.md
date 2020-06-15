@@ -44,7 +44,3 @@ If you are looking for someone to get a hold of directly, here is our primary pr
 Email: [{{ site.press.email }}](mailto:{{ site.press.email }})
 
 Phone: [{{ site.press.phone.display }}](tel:+{{ site.press.phone.mailto }})
-
-### Other
-
-You may also use [the contact form]({% link collections/pages/contact.html %}) for any lower-priority questions.
