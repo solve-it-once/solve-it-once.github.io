@@ -17,36 +17,36 @@
  */
 :root {
   /* Plain defaults. */
-  --border--default: 1px solid;
-  --border-radius--default: 2px;
-  --box-shadow--default: 0 0 3px rgba(0,0,0,.5);
-  --font-family--input: 'Public Sans', Arial, Helvetica, sans-serif;
-  --font-family--monospace: 'courier new', courier, monospace;
-  --font-family--primary: 'Public Sans', Arial, Helvetica, sans-serif;
-  --font-family--secondary: 'Emberly', Times New Roman, serif;
-  --layout--content-area: 1280px;
-  --line-height--default: 1.425;
-  --line-height--heading: 1;
-  --spacing--single: 0.625rem;
-  --text-shadow--default: 0 0 2px rgba(0,0,0,.5);
-  --transition--default: all .3s ease-in;
+  --border--default: {{ site.data.css.border--default }};
+  --border-radius--default: {{ site.data.css.border-radius--default }};
+  --box-shadow--default: {{ site.data.css.box-shadow--default }};
+  --font-family--input: {{ site.data.css.font-family--input }};
+  --font-family--monospace: {{ site.data.css.font-family--monospace }};
+  --font-family--primary: {{ site.data.css.font-family--primary }};
+  --font-family--secondary: {{ site.data.css.font-family--secondary }};
+  --layout--content-area: {{ site.data.css.layout--content-area }};
+  --line-height--default: {{ site.data.css.line-height--default }};
+  --line-height--heading: {{ site.data.css.line-height--heading }};
+  --spacing--single: {{ site.data.css.spacing--single }};
+  --text-shadow--default: {{ site.data.css.text-shadow--default }};
+  --transition--default: {{ site.data.css.transition--default }};
 
   /* Main theme colors. */
-  --color--black: #222;
-  --color--grey-dark: #555;
-  --color--grey: #aaa;
-  --color--grey-light: #f7f7f7;
-  --color--white: #fff;
-  --color--main: #0081a7;
-  --color--main-dark: #002733;
-  --color--main-light: #ccf4ff;
-  --color--second: #f07167;
-  --color--second-dark: #331716;
-  --color--second-light: #ffcfcc;
-  --color--third: #00afb9;
-  --color--third-dark: #003033;
-  --color--third-light: #ccfcff;
-  --color--accent: #6100a7;
+  --color--black: {{ site.data.css.color.black }};
+  --color--grey-dark: {{ site.data.css.color.grey-dark }};
+  --color--grey: {{ site.data.css.color.grey }};
+  --color--grey-light: {{ site.data.css.color.grey-light }};
+  --color--white: {{ site.data.css.color.white }};
+  --color--main: {{ site.data.css.color.main }};
+  --color--main-dark: {{ site.data.css.color.main-dark }};
+  --color--main-light: {{ site.data.css.color.main-light }};
+  --color--second: {{ site.data.css.color.second }};
+  --color--second-dark: {{ site.data.css.color.second-dark }};
+  --color--second-light: {{ site.data.css.color.second-light }};
+  --color--third: {{ site.data.css.color.third }};
+  --color--third-dark: {{ site.data.css.color.third-dark }};
+  --color--third-light: {{ site.data.css.color.third-light }};
+  --color--accent: {{ site.data.css.color.accent }};
 }
 
 /**
