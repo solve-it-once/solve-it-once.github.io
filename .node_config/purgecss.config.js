@@ -8,7 +8,7 @@ module.exports = {
     '_site/assets/css/style.css'
   ],
   keyframes: true,
-  variables: true,
+  variables: false,
   whitelist: [],
   whitelistPatterns: [
     /.*js--event--.*/
