@@ -13,49 +13,41 @@
 /**
  * CSS Custom properties for colors and other variables.
  *
- * Based on the design tokens specified in _data/design-tokens/
- * @see https://github.com/amzn/style-dictionary
+ * Configuration is within _config.yml for the coming-soon kit (other kits use full-featured JSON design tokens).
  */
 :root {
-  {% for file in site.data.design-tokens.root %}
-    {% for property in file[1] %}
-      {% include head/design-token-nest.html property=property %}
-    {% endfor %}
-  {% endfor %}
+  /* Plain defaults. */
+  --border--default: 1px solid;
+  --border-radius--default: 2px;
+  --box-shadow--default: 0 0 3px rgba(0,0,0,.5);
+  --font-family--input: 'Public Sans', Arial, Helvetica, sans-serif;
+  --font-family--monospace: 'courier new', courier, monospace;
+  --font-family--primary: 'Public Sans', Arial, Helvetica, sans-serif;
+  --font-family--secondary: 'Emberly', Times New Roman, serif;
+  --layout--content-area: 1280px;
+  --line-height--default: 1.425;
+  --line-height--heading: 1;
+  --spacing--single: 0.625rem;
+  --text-shadow--default: 0 0 2px rgba(0,0,0,.5);
+  --transition--default: all .3s ease-in;
+
+  /* Main theme colors. */
+  --color--black: #222;
+  --color--grey-dark: #555;
+  --color--grey: #aaa;
+  --color--grey-light: #f7f7f7;
+  --color--white: #fff;
+  --color--main: #0081a7;
+  --color--main-dark: #002733;
+  --color--main-light: #ccf4ff;
+  --color--second: #f07167;
+  --color--second-dark: #331716;
+  --color--second-light: #ffcfcc;
+  --color--third: #00afb9;
+  --color--third-dark: #003033;
+  --color--third-light: #ccfcff;
+  --color--accent: #6100a7;
 }
-
-/**
- * CSS Custom properties for translating pseudo-element content.
- */
-{% for file in site.data.design-tokens.lang %}
-  [lang="{{ file[0] }}"] {
-    {% for property in file[1] %}
-      {% include head/design-token-nest.html property=property %}
-    {% endfor %}
-  }
-{% endfor %}
-
-/**
- * Note: Presently you can only scope to tags and classes, or some combination of those.
- *
- * Double-underscores become spaces, single underscores become periods, with double-underscores evaluated first.
- *
- * Example:
- * This file: _data/design-tokens/scoped/div__a_street-sign___font-family--secondary.json
- * Places all its custom properties in the following scope: div a.street-sign .font-family--secondary
- */
-{% for scope in site.data.design-tokens %}
-  {% assign scopename = scope[0] %}
-  {% unless scopename == "root" or scopename == "lang" %}
-    {% for file in site.data.design-tokens[scopename] %}
-      {{ file[0] | replace: "__", " " | replace: "_", "." }} {
-        {% for property in file[1] %}
-          {% include head/design-token-nest.html property=property %}
-        {% endfor %}
-      }
-    {% endfor %}
-  {% endunless %}
-{% endfor %}
 
 /**
  * Include the main partials in useful specificity order.

@@ -30,11 +30,11 @@ sections:
 title: "Home"
 ---
 
-<section class="layout--stripe background-color--main background-image--affectation color--white text-align--center background-image-display-mobile--hide" id="home">
+<section class="layout--stripe text-align--center background-image-display-mobile--hide" id="home">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="Brad and Shelby are getting married!"
-      classes="text-shadow--second-light--solid"
+      children="Making our website so we can make yours"
+      classes=""
       level="1"
     %}
 
@@ -43,23 +43,23 @@ title: "Home"
     <div class="display--flex layout--row justify-content--center">
       <aside class="display--flex flex-direction--column justify-content--center">
         {% include atoms/image.html
-          src="FB_IMG_1567973636993.jpg"
-          alt="Shelby and Brad embracing while watching F1"
-          caption="We enjoyed the F1 race."
+          src="1200x630/workstation.jpg"
+          alt="Where the magic happens"
+          caption="Busy. Coding."
         %}
 
         {% include atoms/spacer.html size="1" %}
 
         <p class="font-size--2em">
-          Hey, <em>we're Brad and Shelby</em>, and <strong class="text-shadow--second-light--solid">we're rolling out</strong>,
-          looking for America's greatest having, holding, and loving.
+          Hey, we're <em>Solve it once</em>. Soon our website will show all the products and services we provide, and why
+          you'll clearly want to choose us for your next web project.
         </p>
+
+        {% include organisms/form.html
+          mode="ref"
+          slug="mailchimp"
+        %}
       </aside>
     </div>
   </div>
 </section>
-
-{% include organisms/section.html
-  mode="ref"
-  slug="animation"
-%}

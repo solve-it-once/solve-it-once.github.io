@@ -133,7 +133,8 @@ form_components:
 ## Placing them here sets them to be preloaded in the head, which reduces request chaining for better performance.
 ## @see https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content
 woff:
-  - "engagement/engagement-v9-latin-regular.woff2"
+  - "emberly/emberly-variable.woff2"
+  - "emberly/emberly-variable-italic.woff2"
   - "public_sans/public_sans_variable.woff2"
   - "public_sans/public_sans_variable_italic.woff2"
 

@@ -10,7 +10,7 @@ enctype: false
 excerpt: "Mailchimp subscription form"
 form_name: "mc-embedded-subscribe-form"
 hide_handler_fields: true
-honeypot_name: "b_a68c9a34403d644700da9e8d1_68ab6ff5ae"
+honeypot_name: "b_b956311ef2c22e7e3d93723c8_5ca65260a9"
 #published: true
 submit: "Subscribe"
 #tags: ["three", "four"]
@@ -19,16 +19,11 @@ title: "Mailchimp subscription form"
 title_classes: "a11y--visually-hidden"
 ---
 
-<fieldset name="message">
-  <legend>Start getting our newsletter</legend>
-
-  {% include forms/form--input.html
-    classes=""
-    description=false
-    label="Email"
-    name="EMAIL"
-    required=true
-    type="email"
-  %}
-
-</fieldset>
+{% include forms/form--input.html
+  classes=""
+  description=false
+  label="Email"
+  name="EMAIL"
+  required=true
+  type="email"
+%}

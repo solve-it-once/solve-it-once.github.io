@@ -116,20 +116,13 @@ html {
  * declarations in the CSS codebase.
  */
 body {
-  background-color: #edf3f8; /* var(--color--white); */
+  background-color: #fafafa;
   color: var(--color--black);
   font-size: 16px;
   font-weight: 200;
   line-height: var(--line-height--default);
   margin: 0;
   scroll-behavior: smooth;
-}
-body.neumorphic {
-  background-image: linear-gradient(
-    272deg,
-    #c8dae9 0%,
-    transparent 100%
-  ); /* Super-high luminosiry version of --color--main */
 }
 @media all and (prefers-color-scheme: dark) {
   body {
@@ -765,20 +758,18 @@ textarea {
 
 .button,
 button {
-  background-color: transparent;
-  border: var(--neumorphic--border);
-  border-radius: 0.5em;
-  box-shadow: var(--neumorphic--box-shadow);
-  color: currentColor;
+  background-color: var(--color--main);
+  border: var(--border--default);
+  border-radius: var(--border-radius--default);
+  color: var(--color--white);
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
   font-weight: 900;
-  margin: 0 calc(2 * var(--spacing--single)) calc(2 * var(--spacing--single)) 0;
+  margin: 0 calc(2 * var(--spacing--single)) calc(2 * var(--spacing--single));
   padding: calc(1 * var(--spacing--single)) calc(2 * var(--spacing--single));
   text-align: center;
   text-decoration: none;
-  text-shadow: var(--neumorphic--text-shadow);
   transition: var(--transition--default);
 }
 .button:hover,
@@ -786,8 +777,7 @@ button:hover,
 .button.active,
 .button:active,
 button:active {
-  border: var(--neumorphic--border--active);
-  box-shadow: var(--neumorphic--box-shadow--active);
+  background-color: var(--color--main-light);
   color: currentColor;
 }
 .button:focus,
