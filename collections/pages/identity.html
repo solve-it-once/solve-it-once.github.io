@@ -11,9 +11,9 @@ menus:
 #  utility: 1
 meta:
   description: "Moodboard and identity palette."
-#  image:
-#    alt: "Shelby and Brad among the stars" # It's okay for this to be empty if the image is decorative
-#    src: required/meta-image--default.jpg
+  image:
+    alt: "Scrawled notes about business functions"
+    src: required/meta-image--default.jpg
 #  robots: "index,follow"
 #  title: "Overrides the tab title and social titles"
 permalink: /identity/
@@ -27,4 +27,78 @@ permalink: /identity/
 title: "Identity"
 ---
 
-<p>This is a place to review the identity and base styling.</p>
+<section class="layout--stripe text-align--center">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+    children="Logo mark concepts"
+    classes=""
+    level="2"
+    %}
+
+    {% include atoms/spacer.html size="2" %}
+
+    <p>Worked through 8 concepts, which seems like the right number to really explore the creative space. Each concept is
+      a black-and-white rendering, since the end result has to be used for web, print (including b&amp;w), and other media.</p>
+
+    {% include atoms/spacer.html size="2" %}
+
+    <ul class="list-style--none layout--multiple--horizontal">
+      <li class="flex--1">
+        {% include atoms/image.html
+          src="marks/mark.svg"
+          alt="First logo concept"
+          caption="90s, difference, tried to evoke the dollar sign"
+        %}
+      </li>
+      <li class="flex--1">
+        {% include atoms/image.html
+        src="marks/mark2.svg"
+        alt="Second logo concept"
+        caption="Focus on the one form. Made it more squat and liked it had a dog-snout-like quality"
+        %}
+      </li>
+      <li class="flex--1">
+        {% include atoms/image.html
+        src="marks/mark3.svg"
+        alt="Third logo concept"
+        caption="The safe, boring one I instantly hated"
+        %}
+      </li>
+      <li class="flex--1">
+        {% include atoms/image.html
+        src="marks/mark4.svg"
+        alt="Fourth logo concept"
+        caption="A shift from solving being important to the word once"
+        %}
+      </li>
+      <li class="flex--1">
+        {% include atoms/image.html
+        src="marks/mark5.svg"
+        alt="Fifth logo concept"
+        caption="More iconographic. A tad Atlantic-like"
+        %}
+      </li>
+      <li class="flex--1">
+        {% include atoms/image.html
+        src="marks/mark6.svg"
+        alt="Sixth logo concept"
+        caption="so1ve wordform with the o as a key, A bit vertical"
+        %}
+      </li>
+      <li class="flex--1">
+        {% include atoms/image.html
+        src="marks/mark7.svg"
+        alt="Seventh logo concept"
+        caption="Simpler so1ve wordform. Kind of boring"
+        %}
+      </li>
+      <li class="flex--1">
+        {% include atoms/image.html
+        src="marks/mark8.svg"
+        alt="Eighth logo concept"
+        caption="Mark 7 with an oval. Just involved enough."
+        %}
+      </li>
+    </ul>
+  </div>
+</section>

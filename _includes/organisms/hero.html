@@ -3,7 +3,7 @@
   {% if page.hero_classes %}
     {% assign hero_classes = page.hero_classes %}
   {% else %}
-    {% capture hero_classes %}background-color--main background-image--affectation color--white text-align--center background-image-display-mobile--hide{% endcapture %}
+    {% capture hero_classes %}background-color--third color--white text-align--center{% endcapture %}
   {% endif %}
 
   <header class="include include--organisms include--organisms--section layout--stripe {{ hero_classes }}"
@@ -16,9 +16,15 @@
             padding-horizontal--4 padding-horizontal--collapse">
             {% include atoms/heading.html
               children=page.title
-              classes="text-shadow--second-light--solid"
+              classes=""
               level="1"
             %}
+
+            {% if page.meta.image.src %}
+              {% include atoms/spacer.html size="2" %}
+
+              <p>{{ page.meta.description }}</p>
+            {% endif %}
           </aside>
 
           <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
@@ -33,7 +39,7 @@
       {% else %}
         {% include atoms/heading.html
           children=page.title
-          classes="text-shadow--second-light--solid"
+          classes=""
           level="1"
         %}
       {% endif %}
