@@ -102,3 +102,284 @@ title: "Identity"
     </ul>
   </div>
 </section>
+
+<section class="layout--stripe background-color--grey-light text-align--center">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children="Color"
+      classes=""
+      level="2"
+    %}
+
+    <table>
+      <thead>
+        <tr>
+          <th>Palette(s)</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="palette background-color--black color--white font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.black }}
+            </div>
+          </td>
+          <td>Black</td>
+          <td>Appears like a true black, but is a hair lighter. In some cases it may not even be a true grey, but rather
+            an extremely dark shade of one of the theme colors; this humanizes the design, since true black does not appear
+            in nature.</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="palette background-color--grey-dark color--white font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey-dark }}
+            </div>
+
+            <div class="palette background-color--grey color--white font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey }}
+            </div>
+
+            <div class="palette background-color--grey-light font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey-light }}
+            </div>
+          </td>
+          <td>Grey</td>
+          <td>We use three shades of grey throughout, even if the design has shades all willy-nilly. Typically designers
+            choose color to their eye, without care for maintaining a cohesive design system. Using a limited palette makes
+            re-skinning a design far easier down the road. Grey is versatile across designs.</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="palette background-color--white font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.white }}
+            </div>
+          </td>
+          <td>White</td>
+          <td>For technical purposes we tend to keep white true white. We can make the light grey very light, but once white
+            is gonw it would be semantically suspect to use it elsewhere under a different name.</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="palette background-color--main-dark color--white font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey-dark }}
+            </div>
+
+            <div class="palette background-color--main color--white font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey }}
+            </div>
+
+            <div class="palette background-color--main-light font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey-light }}
+            </div>
+          </td>
+          <td>Main</td>
+          <td>If the brand theme contains a blue, we tend to recommend making it the main color. Blue is the color of links,
+            it's culturally neutral for evoking calming emotions, and is overall useful.</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="palette background-color--second-dark color--white font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey-dark }}
+            </div>
+
+            <div class="palette background-color--second color--white font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey }}
+            </div>
+
+            <div class="palette background-color--second-light font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey-light }}
+            </div>
+          </td>
+          <td>Second</td>
+          <td>The second color should usually be the 'hot' color, like an orange, yellow, red, or pink. These shades complement
+           the main color and provide useful thematic contrast.</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="palette background-color--third-dark color--white font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey-dark }}
+            </div>
+
+            <div class="palette background-color--third color--white font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey }}
+            </div>
+
+            <div class="palette background-color--third-light font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.grey-light }}
+            </div>
+          </td>
+          <td>Third</td>
+          <td>The third color can be three shades of whatever you'd like, as long as it suits your brand.</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="palette background-color--accent color--white font-family--monospace text-align--center display--flex
+              flex-direction--column justify-content--center">
+              {{ site.data.css.color.accent }}
+            </div>
+          </td>
+          <td>Accent</td>
+          <td>The accent color is a single shade that can draw attention, distinct of the thematic elegance of the main
+            three theme colors. It is used for :visited links, markings, and elsewhere by default.</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="layout--stripe text-align--center">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+    children="Brand package"
+    classes=""
+    level="2"
+    %}
+
+    <p>Every site/brand has one or more assets that get dropped all over the place: logo for print, social, app icons, etc.
+      Social usually has cover images. There are defaults and treatments that are best explained.</p>
+
+    {% include atoms/heading.html
+      children="Icons and tiles"
+      classes=""
+      level="3"
+    %}
+
+    <table>
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            {% include atoms/image.html
+              src="required/logo.svg"
+              alt="Logo"
+            %}
+          </td>
+          <td>The chosen logo concept with its main color treatment</td>
+        </tr>
+
+        <tr>
+          <td>
+            {% include atoms/image.html
+              src="required/apple-touch-icon.png"
+              alt="Apple touch icon"
+            %}
+          </td>
+          <td>The app icon when you install this site as a bookmark on a mobile device.</td>
+        </tr>
+
+        <tr>
+          <td>
+            {% include atoms/image.html
+              src="required/favicon.svg"
+              alt="Favicon"
+            %}
+          </td>
+          <td>The simplified mark used as an icon in browser tabs and bookmarks.</td>
+        </tr>
+
+        <tr>
+          <td>
+            {% include atoms/image.html
+              src="required/tile.png"
+              alt="Tile"
+            %}
+          </td>
+          <td>An app tile, primarily for Windows.</td>
+        </tr>
+
+        <tr>
+          <td>
+            {% include atoms/image.html
+              src="required/tile-wide.png"
+              alt="Wide tile"
+            %}
+          </td>
+          <td>A wide app tile, primarily for Windows.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    {% include atoms/spacer.html size="8" %}
+
+    {% include atoms/heading.html
+      children="Social"
+      classes=""
+      level="3"
+    %}
+
+    {% include atoms/spacer.html size="2" %}
+
+    {% include atoms/image.html
+      src="required/logo-mark_512.png"
+      alt="Logo for social profile pic"
+      caption="Here is a logo treatment for use in a social profile picture."
+    %}
+
+    {% include atoms/spacer.html size="4" %}
+
+    {% include atoms/image.html
+      src="required/meta-image--default.jpg"
+      alt="Default social and cover pic"
+      caption="Image properly formatted as both a social cover photo and default social share."
+    %}
+
+    {% include atoms/spacer.html size="4" %}
+
+    {% include atoms/image.html
+      src="required/demo.jpg"
+      alt="Brand treatment over a photo"
+      caption="A photo with branded treatments for social posts and elsewhere."
+    %}
+
+    {% include atoms/spacer.html size="4" %}
+
+    {% include atoms/image.html
+      src="required/demo_bw.jpg"
+      alt="Black-and-white treatment demo"
+      caption="A black-and-white photo similarly using a brand treatment."
+    %}
+  </div>
+</section>
+
+<section class="layout--stripe background-color--grey-light text-align--center">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+    children="Typography"
+    classes=""
+    level="2"
+    %}
+
+    <p>Below are textual explanations of the typographic choices, as well as some smaples of common elements. This is what
+      normal body text looks like, for instance.</p>
+
+
+  </div>
+</section>
