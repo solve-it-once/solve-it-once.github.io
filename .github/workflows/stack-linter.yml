@@ -16,7 +16,7 @@
 on:
   push:
     branches-ignore:
-      - 'master'
+      - 'nolint'
 
 ###############
 # Set the Job #
