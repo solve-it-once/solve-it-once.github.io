@@ -243,17 +243,17 @@ title: "Identity"
           <td>
             <div class="palette background-color--main-dark color--white font-family--monospace text-align--center display--flex
               flex-direction--column justify-content--center">
-              {{ site.data.css.color.grey-dark }}
+              {{ site.data.css.color.main-dark }}
             </div>
 
             <div class="palette background-color--main color--white font-family--monospace text-align--center display--flex
               flex-direction--column justify-content--center">
-              {{ site.data.css.color.grey }}
+              {{ site.data.css.color.main }}
             </div>
 
             <div class="palette background-color--main-light font-family--monospace text-align--center display--flex
               flex-direction--column justify-content--center">
-              {{ site.data.css.color.grey-light }}
+              {{ site.data.css.color.main-light }}
             </div>
           </td>
           <td>Main</td>
@@ -265,17 +265,17 @@ title: "Identity"
           <td>
             <div class="palette background-color--second-dark color--white font-family--monospace text-align--center display--flex
               flex-direction--column justify-content--center">
-              {{ site.data.css.color.grey-dark }}
+              {{ site.data.css.color.second-dark }}
             </div>
 
             <div class="palette background-color--second color--white font-family--monospace text-align--center display--flex
               flex-direction--column justify-content--center">
-              {{ site.data.css.color.grey }}
+              {{ site.data.css.color.second }}
             </div>
 
             <div class="palette background-color--second-light font-family--monospace text-align--center display--flex
               flex-direction--column justify-content--center">
-              {{ site.data.css.color.grey-light }}
+              {{ site.data.css.color.second-light }}
             </div>
           </td>
           <td>Second</td>
@@ -287,17 +287,17 @@ title: "Identity"
           <td>
             <div class="palette background-color--third-dark color--white font-family--monospace text-align--center display--flex
               flex-direction--column justify-content--center">
-              {{ site.data.css.color.grey-dark }}
+              {{ site.data.css.color.third-dark }}
             </div>
 
             <div class="palette background-color--third color--white font-family--monospace text-align--center display--flex
               flex-direction--column justify-content--center">
-              {{ site.data.css.color.grey }}
+              {{ site.data.css.color.third }}
             </div>
 
             <div class="palette background-color--third-light font-family--monospace text-align--center display--flex
               flex-direction--column justify-content--center">
-              {{ site.data.css.color.grey-light }}
+              {{ site.data.css.color.third-light }}
             </div>
           </td>
           <td>Third</td>
@@ -437,6 +437,39 @@ title: "Identity"
       alt="Black-and-white treatment demo"
       caption="A black-and-white photo similarly using a brand treatment."
     %}
+
+    {% include atoms/spacer.html size="8" %}
+
+    {% include atoms/heading.html
+    children="Email"
+    classes=""
+    level="3"
+    %}
+
+    {% include atoms/spacer.html size="2" %}
+
+    <table style="border:0 none;border-collapse: collapse;">
+      <thead style="display:none;">
+      <tr>
+        <th>Logo</th>
+        <th>Contact info</th>
+      </tr>
+      </thead>
+      <tbody style="border:0 none;">
+      <tr style="border:0 none;">
+        <td style="border:0 none; max-width:110px;">
+          <a href="{{ site.url }}{{ site.subpath }}" target="_blank">
+            <img src="{{ site.url }}{{ site.subpath }}/assets/images/required/logo.png" alt="{{ site.title }} logo" style="border:0 none;line-height: 0;height:auto;" />
+          </a>
+        </td>
+        <td style="border:0 none; padding:10px 20px;">
+          {{ site.primary_author }}
+          <div>Proprietor</div>
+          <div><a href="{{ site.url }}{{ site.subpath }}" target="_blank"><b>{{ site.title }}</b></a></div>
+        </td>
+      </tr>
+      </tbody>
+    </table>
   </div>
 </section>
 
