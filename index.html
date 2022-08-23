@@ -32,7 +32,7 @@ sections:
 title: "Home"
 ---
 
-<section class="layout--stripe background-color--second-light background-image--hero-home background-size--cover
+<section class="layout--stripe background-color--third-light background-image--hero-home background-size--cover
   color--third-dark text-align--center background-image-display-mobile--hide" id="home">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
@@ -68,32 +68,59 @@ title: "Home"
   </div>
 </section>
 
-<section class="layout--stripe">
+<section class="layout--stripe text-align--center">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children=""
-      classes="text-align--center"
+      children="Always delivering working software"
+      classes="color--main-dark"
       level="2"
     %}
 
     {% include atoms/spacer.html size="4" %}
 
     <div class="display--flex layout--row justify-content--center">
-      <aside class="display--flex flex-direction--column justify-content--center">
-        <p>
-          The headline and subtitle were meant to grab attention and get the visitor's interest. This section gives them
-          a payoff, with a little bit of detail on what you offer and why the user should stay.
-        </p>
+      <aside class="display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8-
+        padding-horizontal--collapse">
+        {% include atoms/heading.html
+          children="Yesteryear agencies"
+          classes="heading--h4 color--second"
+          level="3"
+        %}
 
-        <p>
-          Keep paragraphs short and breezy. There's plenty of site left to give details, prove your worth, and get your
-          visitor to buy what you're selling.
-        </p>
+        <ol>
+          <li>For the first months do you get <em>email attachments</em>, not a website?</li>
+          <li>If you cancel 10% in, do you get a website at all?</li>
+          <li>Do you get old-fashioned page templates instead of components?</li>
+          <li>Did the designer say your brand is 'coy' or other nonsense?</li>
+        </ol>
+      </aside>
 
-        <p>
-          <a class="button cta" href="{{ site.subpath }}{% link collections/pages/about.html %}">More about us</a>
-        </p>
+      <aside class="display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8
+        padding-horizontal--collapse">
+        {% include atoms/heading.html
+          children="Solve it once"
+          classes="heading--h4 color--third"
+          level="3"
+        %}
+
+        <ol>
+          <li>Within days you can log in to your new website</li>
+          <li>You can commit to bite-size sprints, and walk away at any time with a working site</li>
+          <li>It's <strong>good</strong> to refine components instead of whole pages!</li>
+          <li>Writing is clear, direct, and at a fifth grade level</li>
+        </ol>
       </aside>
     </div>
+
+    {% include atoms/spacer.html size="4" %}
+
+    <p>
+      <strong>How can we stay small and make big promises?</strong> We stick to <a href="https://agilemanifesto.org/">agile
+      principles</a> and <br /><a href="https://www.frostdrupal.com/">use past success as our starting point</a>.
+    </p>
+
+    {% include atoms/spacer.html size="4" %}
+
+    <a class="button cta" href="{{ site.subpath }}{% link collections/pages/products.html %}">Shop now</a>
   </div>
 </section>

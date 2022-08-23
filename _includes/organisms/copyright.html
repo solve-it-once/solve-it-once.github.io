@@ -1,5 +1,5 @@
 {% capture component %}
-  <section class="copyright layout--strip background-color--main-dark color--white font-size--p875em
+  <section class="copyright layout--strip background-color--third-dark color--white font-size--p875em
   {% if include.classes %}{{ include.classes }}{% endif %}">
     <div class="layout--stripe--inner">
       <h2 class="a11y--visually-hidden">Copyright, license, and documentation</h2>
@@ -54,7 +54,7 @@ Just some sample text in the accessibility section for now.
 classes| css classes applied to parent| color--main-dark
 {% endcapture %}
 
-{% assign classes = "background-color--main-light, font-size--2em" | split: ", " %}
+{% assign classes = "background-color--third-light, font-size--2em" | split: ", " %}
 
 {% if include.mode == "docblock" %}
   {% include molecules/docblock.html

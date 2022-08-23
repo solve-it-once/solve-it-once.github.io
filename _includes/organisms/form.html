@@ -55,7 +55,7 @@
     {{ include.entity.content }}
 
     <div class="form--actions {% if include.entity.actions_classes %}{{ include.entity.actions_classes }}{% endif %}">
-      <button class="form--button form--button--submit form--actions--button form--actions--button--submit" type="submit">{{ submit }}</button>
+      <button class="form--button form--button--submit form--actions--button form--actions--button--submit background-color--third" type="submit">{{ submit }}</button>
       <button class="form--button form--button--reset form--actions--button form--actions--button--reset a11y--visually-hidden" type="reset">Reset</button>
     </div>
   </form>
@@ -87,7 +87,7 @@ mode| to show a form as a docblock or ref a form entity directly| ref,
 slug| if mode is ref this is the slug of the form entity to ref| mailchimp
 {% endcapture %}
 
-{% assign classes = "background-color--main-light, font-size--2em" | split: ", " %}
+{% assign classes = "background-color--third-light, font-size--2em" | split: ", " %}
 
 {% if include.mode == "docblock" %}
   {% include molecules/docblock.html

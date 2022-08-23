@@ -34,7 +34,7 @@ filament_load_css: "false" # Use the https://www.filamentgroup.com/lab/load-css-
 
 ## Basic site info
 title: "Solve it once"
-primary_author: "Brad Czerniak" # This is shown in the copyright statement in the footer of the site.
+primary_author: "Solve it once, LLC" # This is shown in the copyright statement in the footer of the site.
 shortname: so1ve
 tagline: "Low-overhead web business problem-solving"
 
@@ -44,7 +44,7 @@ email: brad@solveitonce.com
 #  display: "(248) 555-0123" # Fax number as displayed
 #  mailto: "12485550213" # Fex number with country code for the link
 locations:
-  - name: "Headquarters"
+  - name: "Solve it once"
     street_address: "1428 Mark Ave"
     locality: Lincoln Park
     region: MI
@@ -68,6 +68,11 @@ social:
     icon:
       library: simple-icons
       symbol: twitter
+  - title: LinkedIn
+    url: https://www.linkedin.com/company/solve-it-once/
+    icon:
+      library: simple-icons
+      symbol: linkedin
   - title: GitHub
     url: https://github.com/solve-it-once
     icon:

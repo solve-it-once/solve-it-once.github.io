@@ -116,7 +116,7 @@
 
   /* The nav in the header becomes a hidden, toggle-able tray. */
   .mobile--tray {
-    background-color: var(--color--main-light);
+    background-color: var(--color--second-light);
     bottom: 0;
     box-sizing: border-box;
     flex-direction: column;

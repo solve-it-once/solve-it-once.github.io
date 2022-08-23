@@ -474,7 +474,7 @@
 .color--white .menu-item > a:active,
 .color--white .menu-item > a.active,
 .color--white .menu-item > a:focus {
-  background-color: var(--color--second);
+  background-color: var(--color--main-dark);
   font-weight: 700;
   text-decoration: underline dashed var(--color--grey-light);
 }
@@ -539,7 +539,7 @@
   }
 }
 .button--search-widget--submit {
-  background-color: var(--color--accent);
+  background-color: var(--color--main);
   box-shadow: none;
   margin: 0;
   padding: calc(0.5 * var(--spacing--single)) calc(0.5 * var(--spacing--single));

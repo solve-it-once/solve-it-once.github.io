@@ -4,7 +4,7 @@
     {% if page.hero_classes %}
       {% assign hero_classes = page.hero_classes %}
     {% else %}
-      {% capture hero_classes %}background-color--main background-image--affectation color--white text-align--center background-image-display-mobile--hide{% endcapture %}
+      {% capture hero_classes %}background-color--third background-image--affectation color--white text-align--center background-image-display-mobile--hide{% endcapture %}
     {% endif %}
 
     <header class="include include--organisms include--organisms--section layout--stripe {{ hero_classes }}
@@ -81,7 +81,7 @@ Just some sample text in the accessibility section for now.
 classes| css classes applied to parent| color--main-dark
 {% endcapture %}
 
-{% assign classes = "background-color--main-light, font-size--2em" | split: ", " %}
+{% assign classes = "background-color--third-light, font-size--2em" | split: ", " %}
 
 {% if include.mode == "docblock" %}
   {% include molecules/docblock.html
