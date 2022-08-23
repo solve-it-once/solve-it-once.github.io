@@ -12,7 +12,7 @@ authors:
 meta:
   description: "We appreciate your form submission!"
   #  image:
-  #    alt: "Shelby and Brad among the stars" # It's okay for this to be empty if the image is decorative
+  #    alt: "Default social image" # It's okay for this to be empty if the image is decorative
   #    src: required/meta-image--default.jpg
   robots: "noindex,follow"
 #  title: "Overrides the tab title and social titles"
@@ -29,5 +29,4 @@ title: "Thank you!"
 
 ## Plans are in motion!
 
-We appreciate you taking the time to RSVP. Chance are, we'll see you on the big day; but if we have any questions we'll
-reach out sooner.
+We appreciate you taking the time to fill out this internet form! We will be contacting you soon.

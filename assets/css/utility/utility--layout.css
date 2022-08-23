@@ -64,13 +64,6 @@ main,
     flex-direction: column;
   }
 }
-@media all and (max-width: 767px) and (-ms-high-contrast: active),
-  all and (max-width: 767px) and (-ms-high-contrast: none) {
-  /* IE hack to avoid column spacing issues for responsive. */
-  .layout--row {
-    display: block;
-  }
-}
 
 /**
  * By default, stripes should have generous padding.
@@ -97,6 +90,10 @@ main,
   max-width: var(--layout--content-area);
   position: relative;
   z-index: 2;
+}
+/* @shame: Override z-index for classed inner stripes, specifically to make hamburger menu work. */
+.layout--stripe--inner.z-index--3 {
+  z-index: 3;
 }
 
 /**

@@ -30,6 +30,36 @@
 }
 
 /**
+ * Alerts.
+ */
+.alert {
+  border: 1px solid;
+  border-radius: var(--border-radius--default);
+  font-style: italic;
+  margin: 10px 0;
+  padding: 10px;
+}
+.alert a {
+  color: inherit;
+  font-weight: 600;
+}
+.alert p:first-of-type {
+  margin-top: 0;
+}
+.alert--error {
+  background-color: var(--color--error-background);
+  color: var(--color--error);
+}
+.alert--status {
+  background-color: var(--color--status-background);
+  color: var(--color--status);
+}
+.alert--warning {
+  background-color: var(--color--warning-background);
+  color: var(--color--warning);
+}
+
+/**
  * Background images and gradients.
  */
 .background-image--gradient--main {
@@ -59,6 +89,36 @@
     transparent 50%,
     var(--color--accent) 200%
   );
+}
+.background-image--hero-home {
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  min-height: 50vw; /* Roughly the aspect ratio. */
+}
+.webp--disabled .background-image--hero-home {
+  background-image: url("../images/in-css/hero-home.jpg");
+}
+.webp--enabled .background-image--hero-home {
+  background-image: url("../images/in-css/hero-home.jpg.webp");
+}
+.background-image--hero-standout {
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.webp-disabled .background-image--hero-standout {
+  background-image: url("../images/in-css/eric-prouzet-tD49mqo7sjE-unsplash.jpg");
+}
+.webp-enabled .background-image--hero-standout {
+  background-image: url("../images/in-css/eric-prouzet-tD49mqo7sjE-unsplash.jpg.webp");
+}
+
+/**
+ * Effects based on scroll.
+ */
+.body-scroll--up {
+}
+.body-scroll--up .fab {
+  bottom: -200px;
 }
 
 /**
@@ -111,10 +171,28 @@
 }
 
 /**
+ * Inverted "ghost" buttons (anti-pattern, but common).
+ *
+ * @see ../utility/utility--color.css for the background-to-border conversion.
+ */
+.button--ghost {
+  background-color: var(
+    --color--white
+  ); /* Could be transparent depending on theme. */
+  border: 1px solid;
+}
+.button--ghost:hover {
+  color: var(--color--grey-dark);
+}
+
+/**
  * Cards (teasers).
  */
 .card {
+  border: var(--border--default);
   border-radius: var(--border-radius--default);
+  box-shadow: var(--box-shadow--default);
+  transition: var(--transition--default);
 }
 .card figure,
 .card figure img {
@@ -135,6 +213,15 @@
 }
 .card picture {
   overflow: hidden;
+}
+.card--hover:hover,
+.card--hover:active,
+.card--hover:focus-within {
+  border-style: dot-dash;
+}
+.card--hover figure img {
+  transition-property: transform;
+  will-change: transform;
 }
 .card--hover:hover figure img,
 .card--hover:active figure img,
@@ -158,7 +245,39 @@
  * GDPR Cookie disclosure dialog (fixed to bottom of screen).
  */
 .dialog--cookie-disclosure {
-  box-shadow: 0 -2px 6px rgba(136, 165, 191, 0.9);
+  box-shadow: 0 -2px 6px rgba(128, 128, 128, 0.9);
+}
+
+/**
+ * Docblocks, the example containers for components.
+ */
+.docblock {
+  margin: 0 0 calc(4 * var(--spacing--single));
+}
+.docblock--example {
+  border: 1px dashed;
+  padding: calc(2 * var(--spacing--single));
+}
+
+/**
+ * Docs sidebar for navigating documentation.
+ */
+.docs-sidebar {
+}
+.docs-sidebar a.active {
+  font-style: italic;
+  text-decoration: underline dashed;
+}
+@media all and (min-width: 1440px) {
+  .has--docs-sidebar > .layout--stripe--inner {
+    margin-left: 360px;
+  }
+  .docs-sidebar {
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    width: 360px;
+  }
 }
 
 /**
@@ -201,13 +320,31 @@
 .form--item:not([class*="flex--"]) + .form--item:not([class*="flex--"]) {
   margin-top: calc(2 * var(--spacing--single));
 }
+.form--item--select--multiple
+  .form--item:not([class*="flex--"])
+  + .form--item:not([class*="flex--"]) {
+  margin-top: calc(0.25 * var(--spacing--single));
+}
 .form--item--description {
   font-size: 0.75em;
 }
 .form--item--checkbox.position--relative > label,
 .form--item--radio.position--relative > label {
+  border: var(--border--default);
   border-radius: var(--border-radius--default);
+  box-shadow: var(--box-shadow--default);
   cursor: pointer;
+  transition: var(--transition--default);
+}
+.form--item--checkbox.position--relative > label:hover,
+.form--item--checkbox.position--relative > label:active,
+.form--item--checkbox.position--relative > label:focus-within,
+.form--item--checkbox.position--relative > input:checked + label,
+.form--item--radio.position--relative > label:hover,
+.form--item--radio.position--relative > label:active,
+.form--item--radio.position--relative > label:focus-within,
+.form--item--radio.position--relative > input:checked + label {
+  border-style: dot-dash;
 }
 .form--item--checkbox.position--relative > label,
 .form--item--radio.position--relative > label {
@@ -223,12 +360,57 @@
 }
 
 /**
+ * Specificity override for gallery item margins.
+ */
+.gallery-item {
+}
+.text-align--center figure.gallery-item {
+  margin: 0 auto calc(4 * var(--spacing--single));
+}
+
+/**
  * Site header and its elements.
  */
 .header {
 }
 .header--logo {
   text-decoration: none;
+}
+
+/**
+ * YouTube embeds, faked to look like iframes as much as possible.
+ */
+.include--molecule--youtube {
+  position: relative;
+}
+.include--molecule--youtube::before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75) 0%, transparent 100%);
+  color: var(--color--white);
+  content: attr(data-title);
+  cursor: pointer;
+  display: block;
+  left: 0;
+  padding: calc(2 * var(--spacing--single));
+  position: absolute;
+  right: 0;
+  text-shadow: var(--text-shadow--default);
+  top: 0;
+  z-index: 2;
+}
+.include--molecule--youtube::after {
+  background-image: url("../images/in-css/youtube.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: calc(50% - calc(3.4 * var(--spacing--single)));
+  content: "";
+  cursor: pointer;
+  display: block;
+  padding: calc(3.4 * var(--spacing--single));
+  position: absolute;
+  right: calc(50% - calc(3.4 * var(--spacing--single)));
+}
+.include--molecule--youtube:hover::after {
+  background-color: #f00;
 }
 
 /**
@@ -239,6 +421,7 @@
   padding-right: 55px !important; /* Magic number because of the button width below. */
 }
 .js--dismissible--close {
+  background-color: transparent;
   color: currentColor;
   margin: 0;
   padding: calc(0.75 * var(--spacing--single)) calc(1 * var(--spacing--single));
@@ -248,12 +431,26 @@
 }
 
 /**
+ * Rudimentary lightbox.
+ */
+.js--event--click {
+  cursor: pointer;
+  transition: var(--transition--default);
+}
+
+/**
  * Toggle below (Open/Close below) buttons.
  */
 .js--toggle-below {
 }
 .js .js--toggle-below--closed {
   display: none;
+}
+
+/**
+ * Markdown-processed text.
+ */
+.markdownified {
 }
 
 /**
@@ -327,6 +524,40 @@
 }
 
 /**
+ * The search widget in the header.
+ */
+.search-widget {
+}
+.search-widget form {
+  max-width: calc(100vw - (4 * var(--spacing--single)));
+  right: calc(-12 * var(--spacing--single));
+  width: calc(24 * var(--spacing--single));
+}
+@media all and (min-width: 768px) {
+  .search-widget form {
+    right: 0;
+  }
+}
+.button--search-widget--submit {
+  background-color: var(--color--accent);
+  box-shadow: none;
+  margin: 0;
+  padding: calc(0.5 * var(--spacing--single)) calc(0.5 * var(--spacing--single));
+}
+.button--search-widget--toggle {
+  line-height: var(--line-height--heading);
+  margin: 0;
+  padding: calc(0.5 * var(--spacing--single)) calc(0.5 * var(--spacing--single));
+}
+.button--search-widget--toggle > svg {
+  fill: var(--color--white);
+  margin: 0;
+}
+.button--search-widget--toggle[aria-expanded="true"] > svg {
+  fill: var(--color--second-light);
+}
+
+/**
  * Social links.
  */
 .social {
@@ -345,8 +576,28 @@
 }
 
 /**
- * Text-shadows to match the theme.
+ * Initial "top" state for the main nav, to allow for transitions via body-scroll--
  */
-.text-shadow--second-light--solid {
-  text-shadow: 3px 3px 0 var(--color--second-light);
+.sticky--top {
+  position: static;
+  top: -300px; /* Need a set negative position taller than the nav but not huge for transition */
+  transition: var(--transition--default);
+}
+@media all and (min-width: 1024px) {
+  .body-scroll--up .sticky--top {
+    box-shadow: 0 2px 6px rgba(128, 128, 128, 0.9);
+    position: sticky;
+    top: 0;
+    transition: var(--transition--default);
+    z-index: 8;
+  }
+}
+
+/**
+ * Responsive wrapper for tables.
+ */
+@media all and (max-width: 1024px) {
+  .table--wrapper {
+    overflow-x: scroll;
+  }
 }

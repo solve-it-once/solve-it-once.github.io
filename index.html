@@ -11,9 +11,9 @@ menus:
   main: 1
 #  utility: 1
 meta:
-  description: "Brad Czerniak and Shelby Hassell (nee Sleete) are getting married in October in Michigan."
+  description: "Michigan Drupal and JAMstack development + consultation."
 #  image:
-#    alt: "Shelby and Brad among the stars" # It's okay for this to be empty if the image is decorative
+#    alt: "Default social image"
 #    src: required/meta-image--default.jpg
 #  robots: "index,follow"
 #  title: "Overrides the tab title and social titles"
@@ -24,41 +24,75 @@ redirect_from:
 #schema:
 #  type: "Thing"
 sections:
+  - freshness
   - cta
+  - mailchimp
 #sitemap: true
 #tags: ["three", "four"]
 title: "Home"
 ---
 
-<section class="layout--stripe text-align--center background-image-display-mobile--hide" id="home">
+<section class="layout--stripe background-color--second-light background-image--hero-home background-size--cover
+  color--third-dark text-align--center background-image-display-mobile--hide" id="home">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="Making our website so we can make yours"
+      children="Better, faster, cheaper Drupal websites"
       classes=""
       level="1"
     %}
 
-    {% include atoms/spacer.html size="2" %}
+    {% include atoms/spacer.html size="4" %}
 
     <div class="display--flex layout--row justify-content--center">
       <aside class="display--flex flex-direction--column justify-content--center">
-        {% include atoms/image.html
-          src="1200x630/workstation.jpg"
-          alt="Where the magic happens"
-          caption="Busy. Coding."
-        %}
-
-        {% include atoms/spacer.html size="1" %}
-
         <p class="font-size--2em">
-          Hey, we're <em>Solve it once</em>. Soon our website will show all the products and services we provide, and why
-          you'll clearly want to choose us for your next web project.
+          Let's not sugar-coat it: other agencies are ripping you off.
+        </p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="layout--strip background-color--third-light color--third-dark text-align--center">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children="Early call to action"
+      classes="a11y--visually-hidden"
+      level="2"
+    %}
+
+    <p>
+      <strong>Want to skip the hard sell?</strong> Call/text Brad at <a href="tel:+13135097214">(313) 509-7214</a> or email
+      <a href="mailto:brad@solveitonce.com">brad@solveitonce.com</a>
+    </p>
+  </div>
+</section>
+
+<section class="layout--stripe">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children=""
+      classes="text-align--center"
+      level="2"
+    %}
+
+    {% include atoms/spacer.html size="4" %}
+
+    <div class="display--flex layout--row justify-content--center">
+      <aside class="display--flex flex-direction--column justify-content--center">
+        <p>
+          The headline and subtitle were meant to grab attention and get the visitor's interest. This section gives them
+          a payoff, with a little bit of detail on what you offer and why the user should stay.
         </p>
 
-        {% include organisms/form.html
-          mode="ref"
-          slug="mailchimp"
-        %}
+        <p>
+          Keep paragraphs short and breezy. There's plenty of site left to give details, prove your worth, and get your
+          visitor to buy what you're selling.
+        </p>
+
+        <p>
+          <a class="button cta" href="{{ site.subpath }}{% link collections/pages/about.html %}">More about us</a>
+        </p>
       </aside>
     </div>
   </div>

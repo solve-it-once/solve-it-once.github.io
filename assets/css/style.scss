@@ -13,41 +13,49 @@
 /**
  * CSS Custom properties for colors and other variables.
  *
- * Configuration is within _config.yml for the coming-soon kit (other kits use full-featured JSON design tokens).
+ * Based on the design tokens specified in _data/design-tokens/
+ * @see https://github.com/amzn/style-dictionary
  */
 :root {
-  /* Plain defaults. */
-  --border--default: {{ site.data.css.border--default }};
-  --border-radius--default: {{ site.data.css.border-radius--default }};
-  --box-shadow--default: {{ site.data.css.box-shadow--default }};
-  --font-family--input: {{ site.data.css.font-family--input }};
-  --font-family--monospace: {{ site.data.css.font-family--monospace }};
-  --font-family--primary: {{ site.data.css.font-family--primary }};
-  --font-family--secondary: {{ site.data.css.font-family--secondary }};
-  --layout--content-area: {{ site.data.css.layout--content-area }};
-  --line-height--default: {{ site.data.css.line-height--default }};
-  --line-height--heading: {{ site.data.css.line-height--heading }};
-  --spacing--single: {{ site.data.css.spacing--single }};
-  --text-shadow--default: {{ site.data.css.text-shadow--default }};
-  --transition--default: {{ site.data.css.transition--default }};
-
-  /* Main theme colors. */
-  --color--black: {{ site.data.css.color.black }};
-  --color--grey-dark: {{ site.data.css.color.grey-dark }};
-  --color--grey: {{ site.data.css.color.grey }};
-  --color--grey-light: {{ site.data.css.color.grey-light }};
-  --color--white: {{ site.data.css.color.white }};
-  --color--main: {{ site.data.css.color.main }};
-  --color--main-dark: {{ site.data.css.color.main-dark }};
-  --color--main-light: {{ site.data.css.color.main-light }};
-  --color--second: {{ site.data.css.color.second }};
-  --color--second-dark: {{ site.data.css.color.second-dark }};
-  --color--second-light: {{ site.data.css.color.second-light }};
-  --color--third: {{ site.data.css.color.third }};
-  --color--third-dark: {{ site.data.css.color.third-dark }};
-  --color--third-light: {{ site.data.css.color.third-light }};
-  --color--accent: {{ site.data.css.color.accent }};
+  {% for file in site.data.design-tokens.root %}
+    {% for property in file[1] %}
+      {% include head/design-token-nest.html property=property %}
+    {% endfor %}
+  {% endfor %}
 }
+
+/**
+ * CSS Custom properties for translating pseudo-element content.
+ */
+{% for file in site.data.design-tokens.lang %}
+  [lang="{{ file[0] }}"] {
+    {% for property in file[1] %}
+      {% include head/design-token-nest.html property=property %}
+    {% endfor %}
+  }
+{% endfor %}
+
+/**
+ * Note: Presently you can only scope to tags and classes, or some combination of those.
+ *
+ * Double-underscores become spaces, single underscores become periods, with double-underscores evaluated first.
+ *
+ * Example:
+ * This file: _data/design-tokens/scoped/div__a_street-sign___font-family--secondary.json
+ * Places all its custom properties in the following scope: div a.street-sign .font-family--secondary
+ */
+{% for scope in site.data.design-tokens %}
+  {% assign scopename = scope[0] %}
+  {% unless scopename == "root" or scopename == "lang" %}
+    {% for file in site.data.design-tokens[scopename] %}
+      {{ file[0] | replace: "__", " " | replace: "_", "." }} {
+        {% for property in file[1] %}
+          {% include head/design-token-nest.html property=property %}
+        {% endfor %}
+      }
+    {% endfor %}
+  {% endunless %}
+{% endfor %}
 
 /**
  * Include the main partials in useful specificity order.
@@ -68,6 +76,7 @@
 
 {% include_relative theme/theme--pygments.css %}
 {% include_relative theme/theme--classes.css %}
+{% include_relative theme/theme--menus.css %}
 {% include_relative theme/theme--shame.css %}
 
 /**

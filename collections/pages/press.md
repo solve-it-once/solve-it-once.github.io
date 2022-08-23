@@ -12,7 +12,7 @@ menus:
 meta:
   description: "Who to contact if you're a journalist."
 #  image:
-#    alt: "Shelby and Brad among the stars" # It's okay for this to be empty if the image is decorative
+#    alt: "Default social image" # It's okay for this to be empty if the image is decorative
 #    src: required/meta-image--default.jpg
 #  robots: "index,follow"
 #  title: "Overrides the tab title and social titles"
@@ -44,3 +44,7 @@ If you are looking for someone to get a hold of directly, here is our primary pr
 Email: [{{ site.press.email }}](mailto:{{ site.press.email }})
 
 Phone: [{{ site.press.phone.display }}](tel:+{{ site.press.phone.mailto }})
+
+### Other
+
+You may also use [the contact form]({{ site.subpath }}{% link collections/pages/contact.html %}) for any lower-priority questions.

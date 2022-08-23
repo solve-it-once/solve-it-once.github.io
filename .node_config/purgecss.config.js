@@ -8,9 +8,10 @@ module.exports = {
     '_site/assets/css/style.css'
   ],
   keyframes: true,
-  variables: false,
+  variables: true,
   whitelist: [],
   whitelistPatterns: [
-    /.*js--event--.*/
+    /.*js--event--.*/,
+    /.*webp.*/
   ]
 };

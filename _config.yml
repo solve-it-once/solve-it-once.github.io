@@ -17,15 +17,16 @@
 ####
 
 ## Technical site info
-baseurl: "" # This is better empty
+#baseurl: "" # This is better empty
 subpath: "" # Could be a subsite of a domain at a path, ex. "/sub-site"
-#google_analytics: UA-178642068-1 # The UA- code provided by GA
+#google_analytics: UA-697953-3 # The UA- code provided by GA
 
 ## The option below lets you choose between having Jekyll process and minify your CSS and JS (good enough), or adding a
 ## step whenever you work on a CSS or JS file to run the .scripts/pre-commit.sh script before committing. This extra
 ## step minimizes the size of the CSS/JS files for better front-end performance, but is obviously kind of a pain in the
 ## butt.
 no_pre_commit_dependencies: "false, style and script" # Set to true to make the site work without added script hooks
+filament_load_css: "false" # Use the https://www.filamentgroup.com/lab/load-css-simpler/ technique to async CSS.
 
 ## Content-Security-Policy is preferably something to set in the HTTP headers, but is available here just in case.
 ## @see https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
@@ -33,9 +34,9 @@ no_pre_commit_dependencies: "false, style and script" # Set to true to make the 
 
 ## Basic site info
 title: "Solve it once"
-primary_author: "Brad Czerniak"
-shortname: solveonce
-tagline: "Web business problem solving"
+primary_author: "Brad Czerniak" # This is shown in the copyright statement in the footer of the site.
+shortname: so1ve
+tagline: "Low-overhead web business problem-solving"
 
 ## Site and contact bits
 email: brad@solveitonce.com
@@ -67,6 +68,11 @@ social:
     icon:
       library: simple-icons
       symbol: twitter
+  - title: GitHub
+    url: https://github.com/solve-it-once
+    icon:
+      library: simple-icons
+      symbol: github
 
 ## Press contact
 ## For small sites this is the same person and contact information as above. For companies... probably not.
@@ -76,7 +82,7 @@ press:
   email: "brad@solveitonce.com"
   phone:
     display: "(313) 509-7214" # Phone number as displayed
-    mailto: "13135097214" # Phone number with country code for the link
+    mailto: "1313509-7214" # Phone number with country code for the link
 
 ## The <html> tag has language and language direction. We can make it configurable
 html:
@@ -86,10 +92,10 @@ html:
 
 ## Standard <meta> tags for SEO, etc.
 meta:
-  description: "Solve it once, LLC's cool new website is coming soon."
+  description: "Solve it once, LLC makes better websites faster and for less money."
   generator: "[Jekyll](https://github.com/mojombo/jekyll)"
   image:
-    alt: "A generic image depicting the brand" # It's okay for this to be an empty string if the image is decorative
+    alt: "What Solve it once looks like" # It's okay for this to be an empty string if the image is decorative
     src: required/meta-image--default.jpg
   robots: "index,follow"
 # title: "Do not use" # site.meta.title is not used for anything, but is included for completeness.
@@ -114,6 +120,12 @@ twitter:
   creator: "@SolveItOnceLLC"
   site: "@SolveItOnceLLC"
 
+## Web monetization
+## Comment out this section to remove the <meta> tag.
+## @see https://webmonetization.org/
+#web_monetization:
+#  pointer: "$ilp.uphold.com/DY7b72i8hmgm" # A valid ILP pointer
+
 ## PWA and other SEO
 ## @see https://developer.mozilla.org/en-US/docs/Web/Manifest
 manifest_webmanifest:
@@ -129,14 +141,51 @@ form_components:
   thankyou_name: "_next"
   default_submit: "Send" # or "Submit"
 
+## JAMstack product handling, courtesy of snipcart
+## Comment out the below section if you don't have products, to prevent a small script from running on every page load.
+## @see https://snipcart.com/
+snipcart:
+  api_key: "N2Q1OWZiOTMtODcyZi00OTUzLWFiYjAtNTAwMGYzZmE5YmI4NjM3MTk2NDYyNTQ4MTA5ODMx"
+
 ## Woff2 files declared as webfonts in your css, relative to /assets/fonts/
 ## Placing them here sets them to be preloaded in the head, which reduces request chaining for better performance.
 ## @see https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content
-woff:
-  - "emberly/emberly-variable.woff2"
-  - "emberly/emberly-variable-italic.woff2"
-  - "public_sans/public_sans_variable.woff2"
-  - "public_sans/public_sans_variable_italic.woff2"
+preload:
+  image:
+    - "in-css/hero-home.jpg.webp"
+    - "in-css/eric-prouzet-tD49mqo7sjE-unsplash.jpg.webp"
+    - "required/s.gif.webp"
+  style:
+    - "pre-commit-dependency.css"
+  woff:
+    - "public_sans/public_sans_variable.woff2"
+    - "emberly/emberly-variable.woff2"
+    - "public_sans/public_sans_variable_italic.woff2"
+    - "emberly/emberly-variable-italic.woff2"
+
+## The 'THANKS' and 'SITE' sections of humans.txt
+## @see http://humanstxt.org/
+## (Note: the 'TEAM' section is built from the content in the _people collection
+humans_txt:
+  site:
+    - key: "Components"
+      value: "property--value"
+    - key: "Language"
+      value: "English"
+    - key: "Doctype"
+      value: "HTML5"
+    - key: "IDE"
+      value: "PhpStorm, Sublime Text"
+    - key: "Software"
+      value: "Jekyll"
+    - key: "Standards"
+      value: "CSS3, ES6, HTML5, WCAG 2.1"
+  thanks:
+    - name: "Brad Czerniak"
+      job_title: "finished-starter"
+      contact: "ao5357 [at] gmail.com"
+      twitter: "@ao5357"
+      from: "Lincoln Park, Michigan, USA"
 
 ## Content license (comment out to disable entirely)
 ## @see https://creativecommons.org/share-your-work/
@@ -210,16 +259,41 @@ whitelist:
 ## Site structure
 ## @see https://jekyllrb.com/docs/collections/
 collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+  events:
+    output: true
+    permalink: /events/:year/:month/:title/
   forms:
     output: false
     permalink: /:title/
   people:
     output: true
     permalink: /people/:path/
+  products:
+    output: true
+    permalink: /products/:path/
+  sections:
+    output: false
+    permalink: /:title/
 
 ## Layout and front matter defaults.
 ## @see https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
+      sitemap: false
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "event"
+      schema:
+        type: "Event"
   - scope:
       path: ""
       type: "forms"
@@ -245,3 +319,15 @@ defaults:
       layout: "post"
       schema:
         type: "Article"
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
+      schema:
+        type: "Product"
+  - scope:
+      path: ""
+      type: "sections"
+    values:
+      layout: "section"

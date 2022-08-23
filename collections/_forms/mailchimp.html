@@ -19,11 +19,16 @@ title: "Mailchimp subscription form"
 title_classes: "a11y--visually-hidden"
 ---
 
-{% include forms/form--input.html
-  classes=""
-  description=false
-  label="Email"
-  name="EMAIL"
-  required=true
-  type="email"
-%}
+<fieldset name="message">
+  <legend>Start getting our newsletter</legend>
+
+  {% include forms/form--input.html
+    classes=""
+    description=false
+    label="Email"
+    name="EMAIL"
+    required=true
+    type="email"
+  %}
+
+</fieldset>

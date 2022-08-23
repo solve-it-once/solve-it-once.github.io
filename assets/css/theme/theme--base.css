@@ -70,6 +70,15 @@ section {
 }
 
 /**
+ * Attempt snappier rendering performance with the content-visibility property on stripes.
+ */
+body:not(.page--front) > main > section,
+body.page--front > main > section:nth-child(n + 2) {
+  content-visibility: auto;
+  contain-intrinsic-size: 850px; /* Magic number heuristic for average stripe height. */
+}
+
+/**
  * Normalize and bugfix for some HTML5 media elements.
  */
 audio,
@@ -104,6 +113,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
+  overflow-y: scroll;
   text-rendering: optimizeLegibility;
 }
 
@@ -116,7 +126,7 @@ html {
  * declarations in the CSS codebase.
  */
 body {
-  background-color: #fafafa;
+  background-color: var(--color--white);
   color: var(--color--black);
   font-size: 16px;
   font-weight: 200;
@@ -124,13 +134,19 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
+@media (max-width: 1023px) {
+  body {
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+}
 @media all and (prefers-color-scheme: dark) {
   body {
     background-color: var(--color--grey-dark);
     background-image: none;
     filter: grayscale(100%) invert(100%);
   }
-  figure {
+  figure img {
     filter: invert(100%);
   }
 }
@@ -282,9 +298,6 @@ details > summary {
   padding: calc(2 * var(--spacing--single)) calc(4 * var(--spacing--single))
     calc(2 * var(--spacing--single)) calc(1 * var(--spacing--single));
   position: relative;
-}
-details > summary::-webkit-details-marker {
-  display: none;
 }
 details > summary::marker {
   display: none;
@@ -526,7 +539,7 @@ mark,
 }
 
 p {
-  margin: calc(1 * var(--spacing--single)) 0;
+  margin: calc(2.5 * var(--spacing--single)) 0;
   max-width: 75ch;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -536,12 +549,6 @@ p:first-child {
 }
 p:last-child {
   margin-bottom: 0;
-}
-@media all and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  /* Browser targeting hack. */
-  p {
-    max-width: 100ch;
-  }
 }
 
 /**
@@ -685,22 +692,22 @@ legend {
  * Input elements, general styling.
  */
 ::-webkit-input-placeholder {
-  color: var(--color--grey-light);
+  color: var(--color--grey);
 }
 :-moz-placeholder {
-  color: var(--color--grey-light);
+  color: var(--color--grey);
 }
 ::-moz-placeholder {
-  color: var(--color--grey-light);
+  color: var(--color--grey);
 }
 :-ms-input-placeholder {
-  color: var(--color--grey-light);
+  color: var(--color--grey);
 }
 ::-ms-input-placeholder {
-  color: var(--color--grey-light);
+  color: var(--color--grey);
 }
 ::placeholder {
-  color: var(--color--grey-light);
+  color: var(--color--grey);
 }
 
 button,
@@ -757,6 +764,7 @@ textarea {
 }
 
 .button,
+.button:link,
 button {
   background-color: var(--color--main);
   border: var(--border--default);
@@ -771,6 +779,9 @@ button {
   text-align: center;
   text-decoration: none;
   transition: var(--transition--default);
+}
+.button:visited {
+  color: var(--color--white);
 }
 .button:hover,
 button:hover,
