@@ -1,24 +1,24 @@
 ---
 authors:
-  - alex-inman
+  - brad-czerniak
 #categories: ["one", "two"]
 #date: 2020-07-03 17:00:00
 #hero_classes: "background-color--main-dark color--white"
 meta:
-  description: "Affordable, portable fruiting"
+  description: "Peace of mind for your website, all year"
   image:
-    alt: "Stylish banana"
-    src: 1200x630/banana.jpg
+    alt: "Support package"
+    src: 1200x630/share_support.png
 #  robots: "index,follow"
 #  title: "Overrides the tab title and social titles"
-#permalink: /event/YYYY/MM/title/
-price: "82.99"
+#permalink: /products/support/
+price: "1949.49"
 #published: true
 #sitemap: true
-sku: "SBFRT-0001"
+sku: "so1ve-0009"
 starting_quantity: 1
 #tags: ["three", "four"]
-title: "A banana"
+title: "Annual support package"
 ---
 
 ## Section after hero on the Example post

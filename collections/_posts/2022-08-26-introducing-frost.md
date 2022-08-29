@@ -5,17 +5,17 @@ authors:
 #date: 2020-03-03 02:02:02
 #hero_classes: "background-color--main-dark color--white"
 meta:
-  description: "A blog post with example content and front matter."
-#  image:
-#    alt: "Default social image" # It's okay for this to be empty if the image is decorative
-#    src: required/meta-image--default.jpg
+  description: "Atomic components and a huge head start."
+  image:
+    alt: "Introducing frost" # It's okay for this to be empty if the image is decorative
+    src: 1200x630/share_introducing-frost.png
 #  robots: "index,follow"
 #  title: "Overrides the tab title and social titles"
 #permalink: /blog/post-title/
 #published: true
 #sitemap: true
 tags: ["Meta"]
-title: "Example post"
+title: "Introducing frost"
 ---
 
 ## Solutis longo nostri usus

@@ -15,7 +15,7 @@ meta:
 #published: true
 #sitemap: true
 tags: ["Meta"]
-title: "Example post"
+title: "Welcome to the new Solve it once website"
 ---
 
 ## Solutis longo nostri usus

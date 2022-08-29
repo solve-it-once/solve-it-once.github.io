@@ -5,17 +5,17 @@ authors:
 #date: 2020-03-03 02:02:02
 #hero_classes: "background-color--main-dark color--white"
 meta:
-  description: "A blog post with example content and front matter."
-#  image:
-#    alt: "Default social image" # It's okay for this to be empty if the image is decorative
-#    src: required/meta-image--default.jpg
+  description: "Even if not in charge, developers are the ones making the software."
+  image:
+    alt: "Developers lead social share image" # It's okay for this to be empty if the image is decorative
+    src: 1200x630/share_developers-lead.png
 #  robots: "index,follow"
 #  title: "Overrides the tab title and social titles"
 #permalink: /blog/post-title/
 #published: true
 #sitemap: true
 tags: ["Meta"]
-title: "Example post"
+title: "Developers lead"
 ---
 
 ## Solutis longo nostri usus

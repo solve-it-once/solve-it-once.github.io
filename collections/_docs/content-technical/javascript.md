@@ -497,11 +497,11 @@ For a product widget of the following construction (automatic using collections 
 ```html
 <div class="product--widget layout--hide--no-javascript ">
   <div class="product--widget--quantity">
-    <label for="sbfrt-0001-quantity">Quantity:</label>
+    <label for="so1ve-0001-quantity">Quantity:</label>
     <input
       type="number"
-      id="sbfrt-0001-quantity"
-      name="sbfrt-0001-quantity"
+      id="so1ve-0001-quantity"
+      name="so1ve-0001-quantity"
       class="product--widget--quantity--input"
       min="1"
       value="1"
@@ -512,7 +512,7 @@ For a product widget of the following construction (automatic using collections 
       type="button"
       class="buy-button snipcart-add-item"
       data-item-quantity="1"
-      data-item-id="SBFRT-0001"
+      data-item-id="so1ve-0001"
       data-item-name="A banana"
       data-item-price="82.99"
       data-item-image="http://localhost:4000/assets/images/1200x630/banana.jpg"

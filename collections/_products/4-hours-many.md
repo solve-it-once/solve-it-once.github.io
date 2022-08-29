@@ -1,24 +1,24 @@
 ---
 authors:
-  - alex-inman
+  - brad-czerniak
 #categories: ["one", "two"]
 #date: 2020-07-03 17:00:00
 #hero_classes: "background-color--main-dark color--white"
 meta:
-  description: "Affordable, portable fruiting"
+  description: "Discounted rate compared to purchasing hours individually"
   image:
-    alt: "Stylish banana"
-    src: 1200x630/banana.jpg
+    alt: "A block of hours rather than purchasing individually"
+    src: 1200x630/share_block-hours.png
 #  robots: "index,follow"
 #  title: "Overrides the tab title and social titles"
-#permalink: /event/YYYY/MM/title/
-price: "82.99"
+permalink: /products/block-of-hours/
+price: "1000.00"
 #published: true
 #sitemap: true
-sku: "SBFRT-0001"
+sku: "so1ve-0004"
 starting_quantity: 1
 #tags: ["three", "four"]
-title: "A banana"
+title: "Block of 10 hours"
 ---
 
 ## Section after hero on the Example post

@@ -6,16 +6,16 @@ authors:
 #hero_classes: "background-color--main-dark color--white"
 meta:
   description: "A blog post with example content and front matter."
-#  image:
-#    alt: "Default social image" # It's okay for this to be empty if the image is decorative
-#    src: required/meta-image--default.jpg
+  image:
+    alt: "Home much more effort social share image" # It's okay for this to be empty if the image is decorative
+    src: 1200x630/share_how-much-more-effort.png
 #  robots: "index,follow"
 #  title: "Overrides the tab title and social titles"
 #permalink: /blog/post-title/
 #published: true
 #sitemap: true
 tags: ["Meta"]
-title: "Example post"
+title: "How much more effort?"
 ---
 
 ## Solutis longo nostri usus

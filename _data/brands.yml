@@ -6,6 +6,7 @@
 brands:
   - href: "https://www.zenput.com/"
     active: true
+    subcontract: false
     date_range: "2020/07 - present"
     description: "Zenput is how multi-unit restaurants, convenience stores, and grocery stores elevate team execution in every store"
     logo: "brands/logos/zenput.png"
@@ -14,6 +15,7 @@ brands:
     slug: "zenput"
   - href: "https://www.bowerswilkins.com/en-us/"
     active: true
+    subcontract: true
     date_range: "2020/08 - 2022/06"
     description: "Experience audio excellence with Bowers &amp; Wilkins award-winning wireless speakers, headphones, home theater speakers and more."
     logo: "brands/logos/bowerswilkins.png"
@@ -22,6 +24,7 @@ brands:
     slug: "zenput"
   - href: "https://admissions.umich.edu/"
     active: true
+    subcontract: true
     date_range: "2020/04 - 2020/05"
     description: "Whether you are completely undecided or firm in your major, there is a place for you to grow and explore new interests at Michigan."
     logo: "brands/logos/umadmissions.png"
@@ -30,6 +33,7 @@ brands:
     slug: "umadmissions"
   - href: "https://www.iqstrategix.com/"
     active: true
+    subcontract: false
     date_range: "2020/11 - present"
     description: "The IQxCloud Knowledge platform is designed to enable non-programming professionals to rapidly harvest and share knowledge"
     logo: "brands/logos/iqstrategix.png"
@@ -38,6 +42,7 @@ brands:
     slug: "iqstrategix"
   - href: "https://www.nypl.org/"
     active: true
+    subcontract: false
     date_range: "2021/02 - 2021/12"
     description: "With nearly 53 million items and 92 locations, the New York Public Library is the second largest public library in the United States"
     logo: "brands/logos/nypl.png"
@@ -46,6 +51,7 @@ brands:
     slug: "nypl"
   - href: "https://provisiosolutions.com/"
     active: true
+    subcontract: false
     date_range: "2021/09 - present"
     description: "Provisio does a lot more than build websites. We create awesome digital experiences."
     logo: "brands/logos/provisio.png"
@@ -54,6 +60,7 @@ brands:
     slug: "provisio"
   - href: "https://axeheadwatch.shop/"
     active: true
+    subcontract: false
     date_range: "2021/07 - present"
     description: "We are people who love luxury, and love finding great deals on watches"
     logo: "brands/logos/axehead.jpg"
@@ -62,6 +69,7 @@ brands:
     slug: "axehead"
   - href: "https://www.princegeorgescountymd.gov/"
     active: true
+    subcontract: true
     date_range: "2022/02 - 2022/08"
     description: "A county located in the U.S. state of Maryland, bordering the eastern portion of Washington, D.C."
     logo: "brands/logos/pgc.png"
@@ -70,6 +78,7 @@ brands:
     slug: "pgc"
   - href: "https://www.justice.gov/"
     active: true
+    subcontract: true
     date_range: "2022/05 - 2022/07"
     description: "The mission of the Department of Justice (DOJ) is to uphold the rule of law, to keep our country safe, and to protect civil rights."
     logo: "brands/logos/doj.png"
