@@ -1,13 +1,13 @@
 {% capture component %}
-  <header class="header--main layout--strip background-color--second-light color--third-dark text-align--center
-    sticky--top box-shadow--default
+  <header class="header--main layout--strip background-color--second-light background-image--gradient--second-light
+    color--third-dark text-align--center sticky--top box-shadow--default
     {% if include.classes %}{{ include.classes }}{% endif %}">
     <div class="layout--stripe--inner z-index--3 display--flex position--relative">
       <aside class="layout--column flex--none display--flex flex-direction--column justify-content--center">
         <a class="header--logo logo" itemprop="url" href="{{ site.subpath }}/">
           <img src="{{ site.subpath }}/assets/images/required/logo.svg" alt="{{ site.title }}, {{ site.tagline }}"
             title="{{ site.title }}, {{ site.tagline }}"
-            class="image header--image header--logo--image" loading="lazy"
+            class="image header--image header--logo--image filter--drop-shadow--white" loading="lazy"
             height="88" width="187"
           />
         </a>

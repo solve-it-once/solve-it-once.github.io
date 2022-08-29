@@ -34,7 +34,7 @@
       "category": "Theme",
       "description": "A medium shade of an on-brand blue, ideally. Used for links by default",
       "type": "color",
-      "value": "#00799E"
+      "value": "#007599"
     },
     "main-dark": {
       "category": "Theme",

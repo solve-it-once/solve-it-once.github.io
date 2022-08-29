@@ -46,7 +46,7 @@ title: "Home"
     <div class="display--flex layout--row justify-content--center">
       <aside class="display--flex flex-direction--column justify-content--center">
         <p class="font-size--2em">
-          Let's not sugar-coat it: other agencies are ripping you off.
+          Let's not sugar-coat it: other agencies charge too much.
         </p>
       </aside>
     </div>
@@ -79,10 +79,10 @@ title: "Home"
     {% include atoms/spacer.html size="4" %}
 
     <div class="display--flex layout--row justify-content--center">
-      <aside class="display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8-
+      <aside class="flex--1 display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8-
         padding-horizontal--collapse">
         {% include atoms/heading.html
-          children="Yesteryear agencies"
+          children="Your old agency"
           classes="heading--h4 color--second"
           level="3"
         %}
@@ -91,11 +91,11 @@ title: "Home"
           <li>For the first months do you get <em>email attachments</em>, not a website?</li>
           <li>If you cancel 10% in, do you get a website at all?</li>
           <li>Do you get old-fashioned page templates instead of components?</li>
-          <li>Did the designer say your brand is 'coy' or other nonsense?</li>
+          <li>Did the designer say your brand is 'shy' or other nonsense?</li>
         </ol>
       </aside>
 
-      <aside class="display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8
+      <aside class="flex--1 display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8
         padding-horizontal--collapse">
         {% include atoms/heading.html
           children="Solve it once"
@@ -107,7 +107,7 @@ title: "Home"
           <li>Within days you can log in to your new website</li>
           <li>You can commit to bite-size sprints, and walk away at any time with a working site</li>
           <li>It's <strong>good</strong> to refine components instead of whole pages!</li>
-          <li>Writing is clear, direct, and at a fifth grade level</li>
+          <li>The writing is clear, direct, and for all audiences</li>
         </ol>
       </aside>
     </div>
@@ -123,4 +123,64 @@ title: "Home"
 
     <a class="button cta" href="{{ site.subpath }}{% link collections/pages/products.html %}">Shop now</a>
   </div>
+</section>
+
+<section class="layout--stripe text-align--center background-color--grey-light">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children="How dare you! And&hellip; what is that?"
+      classes="color--main-dark"
+      level="2"
+    %}
+
+    {% include atoms/spacer.html size="4" %}
+
+    <div class="display--flex layout--row flex-direction--row-reverse justify-content--center">
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
+        {% include atoms/image.html
+          src="1200x630/frost-drupal-demonstration.jpg"
+          alt="Inline edit any component of a Frost Drupal page."
+          classes=""
+          link_url="https://www.frostdrupal.com/page/about"
+        %}
+      </aside>
+
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
+        padding-horizontal--8 padding-horizontal--collapse text-align--left">
+        <p>
+          <a href="https://drupal.org">Drupal</a> is the best content management system. It's free, open source, useful
+          for most websites most of the time, and can be expanded to do darn-near anything. so1ve's flavor of Drupal,
+          <a href="https://www.frostdrupal.com">frost</a>, is made to be "low-code" and component-based, so you can
+          accomplish a lot more without calling a developer.
+        </p>
+
+        <p>
+          But so1ve isn't just a Drupal shop. We also offer freely-hosted JAMstack sites for as little as $300 USD!
+        </p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="layout--stripe text-align--center">
+  {% include atoms/heading.html
+    children="We work on big sites"
+    classes="color--main"
+    level="2"
+  %}
+
+  <p class="font-size--p875em color--grey-dark">
+    so1ve coded for all these clients. They're not all our <em>contracts</em>, but we're proud of this work.
+  </p>
+
+  {% include molecules/brand-listing.html
+    classes="display--flex flex-direction--row align-items--center justify-content--center"
+    item_classes="flex--1 padding-horizontal--4"
+  %}
+
+  <p class="font-size--p875em color--grey-dark">
+    Special thanks to <a href="https://creative.umich.edu/">Michigan Creative</a>,
+    <a href="https://www.human-element.com/">Human Element</a>, <a href="https://provisiosolutions.com/">Provisio</a>, and
+    <a href="https://www.tactis.com/">Tactis</a> for the wonderful sub-contracting opportunities!
+  </p>
 </section>
