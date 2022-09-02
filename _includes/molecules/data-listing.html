@@ -1,20 +1,28 @@
 {% capture component %}
-  <div class="brand-listing {% if include.classes %}{{ include.classes }}{% endif %}">
-    {% for brand in site.data.brands.brands %}
-      {% include atoms/image.html
-        src=brand.logo
-        alt=brand.name
-        classes=include.item_classes
-        link_url=brand.href
-      %}
+  <div class="data-listing {% if include.classes %}{{ include.classes }}{% endif %}">
+    {% for data in site.data[include.data][include.data] %}
+      {% if data.active == true %}
+        {% if data.subcontract == true %}
+          {% capture item_classes %}{{ include.item_classes }} subcontract{% endcapture %}
+        {% else %}
+          {% assign item_classes = include.item_classes %}
+        {% endif %}
+        {% include atoms/image.html
+          src=data.logo
+          alt=data.name
+          classes=item_classes
+          link_url=data.href
+        %}
+      {% endif %}
     {% endfor %}
   </div>
 {% endcapture %}
 
-{% capture name %}Brand Listing{% endcapture %}
+{% capture name %}Data Listing{% endcapture %}
 
 {% capture liquid %}{% raw %}
-  {% include molecules/brand-listing.html
+  {% include molecules/data-listing.html
+    data="brands"
     classes="display--flex"
     item_classes="flex--1"
   %}
@@ -23,7 +31,7 @@
 {% capture usage %}
 #### General guidance
 
-A brand listing is most usually used for a "wall of logos", used commonly for social proof on a service website.
+A data listing is most usually used for a "wall of logos", used commonly for social proof on a service website.
 {% endcapture %}
 
 {% capture accessibility %}

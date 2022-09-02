@@ -173,14 +173,36 @@ title: "Home"
     so1ve coded for all these clients. They're not all our <em>contracts</em>, but we're proud of this work.
   </p>
 
-  {% include molecules/brand-listing.html
+  {% include molecules/data-listing.html
+    data="brands"
     classes="display--flex flex-direction--row align-items--center justify-content--center"
     item_classes="flex--1 padding-horizontal--4"
   %}
 
+  {% include atoms/spacer.html size="2" %}
+
   <p class="font-size--p875em color--grey-dark">
     Special thanks to <a href="https://creative.umich.edu/">Michigan Creative</a>,
     <a href="https://www.human-element.com/">Human Element</a>, <a href="https://provisiosolutions.com/">Provisio</a>, and
-    <a href="https://www.tactis.com/">Tactis</a> for the wonderful sub-contracting opportunities!
+    <a href="https://www.tactis.com/">Tactis</a> for the wonderful sub-contracting opportunities — please consider them
+    if so1ve isn't your speed.
   </p>
+</section>
+
+<section class="layout--stripe text-align--center background-color--third-light">
+  {% include atoms/heading.html
+    children="Howdy, partner"
+    classes="color--third"
+    level="2"
+  %}
+
+  <p class="font-size--p875em color--grey-dark">
+    We'd love to partner with you as well, especially if your badge looks cool.
+  </p>
+
+  {% include molecules/data-listing.html
+    data="badges"
+    classes="display--flex flex-direction--row align-items--center justify-content--center"
+    item_classes="flex--1 padding-horizontal--4"
+  %}
 </section>

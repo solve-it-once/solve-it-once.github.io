@@ -19,6 +19,8 @@ sku: "so1ve-0001"
 starting_quantity: 1
 #tags: ["three", "four"]
 title: "Drupal website"
+sections:
+  - "timevalue"
 ---
 
 ## Section after hero on the Example post

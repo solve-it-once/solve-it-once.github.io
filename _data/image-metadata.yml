@@ -41,6 +41,9 @@ images:
   - path: '1200x630/top-secret.png.webp'
     height: 630
     width: 1200
+  - path: '1200x630/czerniaks.jpg'
+    height: 630
+    width: 1200
   - path: '1200x630/brad-czerniak.jpg.webp'
     height: 630
     width: 1200
@@ -78,6 +81,9 @@ images:
     height: 630
     width: 1200
   - path: '1200x630/share_sprint.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/czerniaks.jpg.webp'
     height: 630
     width: 1200
   - path: '1200x630/noaa-aySTZ82UGus-unsplash.jpg'
@@ -251,6 +257,12 @@ images:
   - path: 'brands/logos/umadmissions.png'
     height: 200
     width: 300
+  - path: 'time-value.jpg.webp'
+    height: 600
+    width: 600
+  - path: 'michigan-drupal.png'
+    height: 600
+    width: 600
   - path: 'in-css/hero-home.jpg'
     height: 972
     width: 1920
@@ -263,6 +275,12 @@ images:
   - path: 'in-css/hero-home.jpg.webp'
     height: 972
     width: 1920
+  - path: 'badges/pantheon.png.webp'
+    height: 178
+    width: 200
+  - path: 'badges/pantheon.png'
+    height: 178
+    width: 200
   - path: 'required/tile.png'
     height: 558
     width: 558
@@ -326,12 +344,18 @@ images:
   - path: 'undraw_To_do_list_re_9nt7.png'
     height: 629
     width: 1089
+  - path: 'time-value.jpg'
+    height: 600
+    width: 600
   - path: 'undraw_To_do_list_re_9nt7.png.webp'
     height: 629
     width: 1089
   - path: 'undraw_welcome_3gvl.png'
     height: 891
     width: 1108
+  - path: 'michigan-drupal.png.webp'
+    height: 600
+    width: 600
   - path: 'youtube/jNQXAC9IVRw.jpg.webp'
     height: 360
     width: 480

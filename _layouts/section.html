@@ -1,10 +1,20 @@
 ---
-layout: compress
+layout: none
 ---
 
-{% include organisms/section.html
-  classes=page.classes
-  children=page.content
-  title=page.title
-  title_classes=page.title_classes
-%}
+{% comment %}<!--
+  The section layout _could_ invoke _includes/organisms/section.html and pass the values, but this is more performant,
+  and likely reduces the recursion depth to allow more sections on more collections.
+  Must be sure to keep this layout up to date with what the component markup contains.
+-->{% endcomment %}
+<section class="include include--organisms include--organisms--section layout--stripe
+  {% if page.classes %}{{ page.classes }}{% endif %}"
+  {% if page.title %}id="section--{{ page.title | slugify }}"{% endif %}>
+  <div class="layout--stripe--inner">
+    {% if page.title %}
+      <h2 class="{{ page.title_classes }}">{{ page.title }}</h2>
+    {% endif %}
+
+    {{ page.content }}
+  </div>
+</section>

@@ -1,0 +1,15 @@
+####
+## @file
+## Metadata about badge tags as applied to content on the site, keyed to the badge 'slug'.
+##
+## @see _includes/molecules/brand-listing.html
+badges:
+  - href: "https://directory.pantheon.io/agencies/solve-it-once"
+    active: true
+    subcontract: false
+    date_range: "2020/07 - present"
+    description: "We created Pantheon so that you can build client websites that are fast, secure, and reliable."
+    logo: "badges/pantheon.png"
+    name: "Pantheon Partner Program"
+    screenshot: "brands/screenshots/zenput.png"
+    slug: "pantheon"

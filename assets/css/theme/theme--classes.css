@@ -153,33 +153,6 @@
 }
 
 /**
- * Brand listing component, site-specific.
- */
-.brand-listing {
-}
-.brand-listing picture {
-  filter: saturate(0.25);
-}
-.brand-listing a:hover > picture {
-  filter: revert;
-}
-@media all and (max-width: 1450px) {
-  .brand-listing {
-    flex-wrap: wrap;
-    margin: 0 auto;
-    max-width: 900px;
-  }
-  .brand-listing > * {
-    flex-basis: 33%;
-  }
-}
-@media all and (max-width: 650px) {
-  .brand-listing > * {
-    flex-basis: 50%;
-  }
-}
-
-/**
  * Browser upgrade prompt for any version of IE.
  *
  * Omitting Custom Props here since IE does not support them.
@@ -276,6 +249,33 @@
 }
 .copyright p {
   max-width: none;
+}
+
+/**
+ * Data listing component, site-specific.
+ */
+.data-listing {
+}
+.data-listing picture {
+  filter: saturate(0.25);
+}
+.data-listing a:hover > picture {
+  filter: revert;
+}
+@media all and (max-width: 1450px) {
+  .data-listing {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .data-listing > * {
+    flex-basis: 33%;
+  }
+}
+@media all and (max-width: 650px) {
+  .data-listing > * {
+    flex-basis: 50%;
+  }
 }
 
 /**
@@ -635,6 +635,26 @@
     transition: var(--transition--default);
     z-index: 8;
   }
+}
+
+/**
+ * Indicate a logo in the brand listing was a subcontract.
+ */
+.subcontract {
+  position: relative;
+}
+.subcontract::before {
+  background: var(--color--grey-dark);
+  bottom: 0;
+  color: var(--color--white);
+  content: "subcontract";
+  display: inline-block;
+  font-size: 0.5em;
+  left: 30%;
+  opacity: 0.75;
+  padding: calc(0.5 * var(--spacing--single)) calc(1 * var(--spacing--single));
+  position: absolute;
+  z-index: 2;
 }
 
 /**

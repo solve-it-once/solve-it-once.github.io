@@ -66,10 +66,25 @@ layout: compress
       -->{% endcomment %}
       {{ content }}
 
-      {% comment %}<!-- Sections typically only work on pages and HTML files (markdown supports less). -->{% endcomment %}
+      {% comment %}<!--
+        Sections typically only work on pages and HTML files (markdown supports less).
+        Here we call the sections as components directly, rather than using a render tag for the section _layout.
+        Since the markup is stored in three places, update the component, layout, and here each time.
+      -->{% endcomment %}
       {% if page.sections %}
         {% for slug in page.sections %}
-          {{ site.sections | where:"slug",slug | first }}
+          {% assign section = site.sections | where:"slug",slug | first %}
+          <section class="include include--organisms include--organisms--section layout--stripe
+            {% if section.classes %}{{ section.classes }}{% endif %}"
+            {% if section.title %}id="section--{{ section.title | slugify }}"{% endif %}>
+            <div class="layout--stripe--inner">
+              {% if section.title %}
+              <h2 class="{{ section.title_classes }}">{{ section.title }}</h2>
+              {% endif %}
+
+              {{ section.content }}
+            </div>
+          </section>
         {% endfor %}
       {% endif %}
     </main>

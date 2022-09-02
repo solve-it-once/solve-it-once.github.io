@@ -10,7 +10,7 @@ menus:
   main: 4
 #  utility: 1
 meta:
-  description: "Who, what, when, where, why, and how."
+  description: "An agency that delivers the promise of agile with Drupal, for less."
   image:
     alt: "About so1ve" # It's okay for this to be empty if the image is decorative
     src: 1200x630/share_about-so1ve.png
@@ -31,83 +31,281 @@ title: "About"
 <section class="layout--stripe background-color--white">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="Our story"
-      classes=" heading--h1 text-align--center"
+      children="Our story, in brief"
+      classes="text-align--center"
       level="2"
     %}
 
     {% include atoms/spacer.html size="4" %}
 
-    <div class="layout--row display--flex flex-direction--row-reverse">
-      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
-        padding-horizontal--4 padding-horizontal--collapse js--to-animate animation-name--reveal">
-        <p>
-          To crib <cite>Glengarry Glen Ross</cite>, "Always be closing." In this section you expose the what, the <em>why</em>,
-          maybe sneak some <em>how</em> in there. All to serve purposes:
-        </p>
-        <ul>
-          <li>Get the people visiting the site and reading this page to like and trust you</li>
-          <li>Put a compelling story in front of what you're offering</li>
-          <li>Give your brand a human face or ten</li>
-          <li>Show how you're different from other brands in your space</li>
-        </ul>
-
-        <p>
-          Write a few paragraphs! Use bullet lists and sub-headings for easy skimming. Let's keep things airy, and avoid
-          big walls of text.
-        </p>
-      </aside>
-
+    <div class="layout--row display--flex flex-direction--row">
       <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
         padding-horizontal--4 padding-horizontal--collapse">
         {% include atoms/image.html
-          src="undraw_welcome_3gvl.png"
-          alt="Welcome to our story"
+          src="1200x630/czerniaks.jpg"
+          alt="A sneak preview of the Czerniak family holiday card"
           classes=""
         %}
       </aside>
+
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
+        padding-horizontal--4 padding-horizontal--collapse js--to-animate animation-name--reveal">
+        <p>
+          <em>Sisyphus ain't got nothin' on me</em>, thought Brad as he started another from-scratch web project that could
+          have been from a template&hellip;
+        </p>
+
+        <p>
+          Or maybe it was just climbing the Sleeping Bear sand dunes in Michigan with his family, or doing hill sprints
+          to train for the next 5k race. Going up hills repeatedly is a recurring theme. But does it have to be?
+        </p>
+      </aside>
     </div>
 
+    {% include atoms/spacer.html size="2" %}
+
+    {% include atoms/heading.html
+      children="Jakob's law in action"
+      classes="font-family--secondary"
+      level="3"
+    %}
+
+    <p>
+      <a href="{{ site.subpath }}{% link _docs/user-experience/ux-principles.html %}">Jakob's law</a> states
+      that <strong>visitors spend most of their time on other websites</strong>. In practice, this means the more your
+      website sticks to conventions, the easier a time people will have visiting.
+    </p>
+
+    <p>
+      That's why it should be a huge <strong class="color--second">red flag</strong> if an agency pitches you that they
+      don't use templates, and will make a bespoke site that encapsulates your unique brand.
+    </p>
+
+    <p>
+      If your visitors crave familiarity and ease-of-use, a custom experience might be the worst marketing answer.
+    </p>
+
+    {% include atoms/heading.html
+      children="No hard feelings"
+      classes="font-family--secondary"
+      level="3"
+    %}
+
+    <p>
+      Solve it once was born from <a href="https://bradczerniak.com/">Brad Czerniak</a> not wanting to push similar rocks
+      up the same hill anymore and setting out on his own. It took a lot of legwork to set up
+      <a href="https://atomicdesign.bradfrost.com/">atomic</a> <a href="https://frostdrupal.com/">Drupal</a> and
+      <a href="https://lowerbarriers.org/finished-starter/">JAMstack</a> templates to his satisfaction, and the
+      road twisted toward subcontracting work for a while, but two years after its founding Solve it once was ready to
+      <em>make better sites faster</em>.
+    </p>
+
+    <p>
+      The biggest advantage of starting from a well-considered template is that we can abide by agile principles and focus
+      on delivering <strong>working software</strong> in a way few other Drupal-focused agencies can claim.
+    </p>
+
+    <p>
+      Solve it once rarely goes after big-money projects, and Brad will not try to guilt you into staying with so1ve if
+      you decide to switch vendors after a sprint or two. It's our sincere hope that the next people to maintain the site
+      will love what we've done with the code!
+    </p>
+
+    {% include atoms/spacer.html size="2" %}
+
+    <p class="font-size--1p5em">
+      Here's to the next hill: may it be pleasant for us all to climb.
+    </p>
   </div>
 </section>
 
 <section class="layout--stripe background-color--second-light background-image--hero-standout background-size--cover">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-    children="How we stand out"
-    classes=" heading--h1 text-align--center"
-    level="2"
+      children="Corporate stuff"
+      classes="text-align--center"
+      level="2"
     %}
 
     {% include atoms/spacer.html size="4" %}
 
-    <div class="layout--row display--flex">
-      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
+    <div class="layout--row display--flex flex-direction--row">
+      <aside class="layout--column flex--1">
+        {% include atoms/spacer.html size="1" %}
+      </aside>
+
+      <aside class="layout--column flex--4 padding-horizontal--8 padding-horizontal--collapse display--flex
+        flex-direction--column justify-content--center">
         <p>
-          We are special, distinct from our competition, and worthy of your time and money for the following reasons:
+          <em>Solve it once</em> does business out in the open, and is motivated to grow in an intentional and responsible way.
+          What follows is our entire 2020-2025 strategic plan, if you are interested to see where we're headed.
         </p>
 
-        <ul>
-          <li>You're on this site and not other ones</li>
-          <li>We have lots of experience and knowledge/wisdom</li>
-          <li>You fit our ideal demo/vertical, which are people aged 0-99 who are willing to spend money</li>
-          <li>Our offering is luxurious, sustainable, and has the right number of options</li>
-          <li>At one point or another, somebody affiliated with Google and Microsoft paid us for our expertise, we think</li>
-          <li>You're one of upwards of two customers we've had</li>
-        </ul>
+        {% include atoms/heading.html
+          children="Mission"
+          classes="font-family--secondary"
+          level="3"
+        %}
 
-        <p>
-          Here's an unexpected and delightful fact about us: we started making our product by hand in a garage while listening
-          to "How Bizarre" by OMC.
+        <p class="font-size--1p25em">
+          Take the guesswork out of making quality websites and web apps.
         </p>
+      </aside>
 
-        <blockquote>
-          <p>We've gotten far, and soon we'll go further.</p>
-        </blockquote>
-
-        <p class="font-size--p875em text-align--right"><cite>- Guy Founderson, <i>founder</i></cite></p>
+      <aside class="layout--column flex--1">
+        {% include atoms/spacer.html size="1" %}
       </aside>
     </div>
+
+    {% include atoms/spacer.html size="8" %}
+
+    <div class="layout--row display--flex flex-direction--row-reverse">
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
+        {% include atoms/image.html
+          src="required/meta-image--default.jpg"
+          alt="Fun branding exercise for so1ve"
+          classes=""
+        %}
+      </aside>
+
+      <aside class="layout--column flex--1 padding-horizontal--8 padding-horizontal--collapse display--flex
+        flex-direction--column justify-content--center">
+        {% include atoms/heading.html
+          children="Vision"
+          classes="font-family--secondary"
+          level="3"
+        %}
+
+        <ol>
+          <li>Be known as a provider of quality off-the-shelf Drupal and JAMstack websites</li>
+          <li>Provide custom development and honest advice of the utmost quality</li>
+          <li>Work smart and fast, and leave time in the day to live</li>
+        </ol>
+      </aside>
+    </div>
+
+    {% include atoms/spacer.html size="8" %}
+
+    <div class="layout--row display--flex flex-direction--row">
+      <aside class="layout--column flex--1">
+        {% include atoms/spacer.html size="1" %}
+      </aside>
+
+      <aside class="layout--column flex--4 padding-horizontal--8 padding-horizontal--collapse display--flex
+        flex-direction--column justify-content--center">
+        {% include atoms/heading.html
+          children="Values"
+          classes="font-family--secondary"
+          level="3"
+        %}
+
+        <ol>
+          <li>Same-day start-up</li>
+          <li>Standardization and reusability of solutions</li>
+          <li>Ability to create unique experiences without paying extra</li>
+          <li>Be valued and trustworthy</li>
+        </ol>
+      </aside>
+
+      <aside class="layout--column flex--1">
+        {% include atoms/spacer.html size="1" %}
+      </aside>
+    </div>
+
+    {% include atoms/spacer.html size="8" %}
+
+    <div class="layout--row display--flex flex-direction--row">
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
+        {% include atoms/image.html
+          src="1200x630/workstation.jpg"
+          alt="The workstation Brad works at"
+          classes=""
+        %}
+      </aside>
+
+      <aside class="layout--column flex--1 padding-horizontal--8 padding-horizontal--collapse display--flex
+        flex-direction--column justify-content--center">
+        {% include atoms/heading.html
+          children="Grand strategies"
+          classes="font-family--secondary"
+          level="3"
+        %}
+
+        <ol>
+          <li>Concentrated Growth — single product; single market; single dominant technology</li>
+          <li>Market Development — market present products</li>
+          <li>Product Development — substantial modifications of existing products</li>
+          <li>Innovation — new product or service</li>
+        </ol>
+      </aside>
+    </div>
+
+    {% include atoms/spacer.html size="8" %}
+
+    <div class="layout--row display--flex flex-direction--row">
+      <aside class="layout--column flex--1">
+        {% include atoms/spacer.html size="1" %}
+      </aside>
+
+      <aside class="layout--column flex--4 padding-horizontal--8 padding-horizontal--collapse display--flex
+        flex-direction--column justify-content--center">
+        {% include atoms/heading.html
+          children="Environmental premises"
+          classes="font-family--secondary"
+          level="3"
+        %}
+
+        <ol>
+          <li>Website development from a blank sheet is expensive and counterintuitive</li>
+          <li>Most customers want someone to implement a website quickly</li>
+          <li>Most customers want to be able to edit their own website</li>
+          <li>Some customers want personalized and unique service</li>
+        </ol>
+
+        {% include atoms/heading.html
+          children="Challenges"
+          classes="font-family--secondary"
+          level="3"
+        %}
+
+        <ol>
+          <li>Develop and expand options for off-the-shelf web products suitable for rapid launch (V1-3; EP1-2)</li>
+          <li>Publish in the Drupal community (V4)</li>
+          <li>Explore ways to market Solve it Once (V1-4; EP1)</li>
+          <li>Develop product documentation to educate customers on support tools (V3; EP3)</li>
+          <li>Develop and maintain a flexible set of cost options (V1-4; EP1-4)</li>
+        </ol>
+
+        {% include atoms/heading.html
+          children="Essential capabilities"
+          classes="font-family--secondary"
+          level="3"
+        %}
+
+        <ol>
+          <li>Web development, especially in Drupal</li>
+          <li>Friendly approach with clientele</li>
+        </ol>
+
+        {% include atoms/heading.html
+          children="Long-term direction"
+          classes="font-family--secondary"
+          level="3"
+        %}
+
+        <ol>
+          <li>Implement, Maintain and Expand the Solve it Once Website (C1; C3)</li>
+          <li>Develop Off the Shelf Website Options (C1)</li>
+          <li>Develop Pricing Options (C4)</li>
+          <li>Market Solve it Once (C2 & 3)</li>
+        </ol>
+      </aside>
+
+      <aside class="layout--column flex--1">
+        {% include atoms/spacer.html size="1" %}
+      </aside>
+    </div>
+
   </div>
 </section>
 
@@ -119,44 +317,47 @@ title: "About"
 <section class="layout--stripe background-color--main-dark color--white background-image--gradient--main">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="Global reach"
-      classes=" heading--h1 text-align--center"
+      children="Pure Michigan Drupal"
+      classes="text-align--center"
       level="2"
     %}
 
     {% include atoms/spacer.html size="4" %}
 
-    <div class="layout--row display--flex">
-      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
-        <p>
-          Now that you've covered the other "W's", let's talk about the <em>where</em>. We can verbalize where we're from,
-          yes, but can also do two tricks to demonstrate our mastery of the globe.
-        </p>
-
-        <p>This first is to list where you have offices, remote workers, random P.O. boxes, etc.:</p>
-
-        <ul>
-          <li>Detroit, MI, USA</li>
-          <li>Santa Barbara, CA, USA</li>
-        </ul>
-
-        <p>...and the second is to show all the places where you've had an effect, like where your customers are, where
-          you've held events, where you've traveled on business, etc.:
-        </p>
-
-        <ul>
-          <li>Louisville, KY, USA</li>
-          <li>Sydney, Australia</li>
-        </ul>
-      </aside>
-
-      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--flex-end
+    <div class="layout--row display--flex flex-direction--row-reverse">
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
         padding-horizontal--4 padding-horizontal--collapse">
         {% include atoms/image.html
-          src="1200x630/noaa-aySTZ82UGus-unsplash.jpg"
-          alt=""
+          src="michigan-drupal.png"
+          alt="Beautiful water, overlayed with a map of Michigan and a frost Drupal drop"
           classes="box-shadow--lifted-edges"
         %}
+      </aside>
+
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
+        padding-horizontal--8 padding-horizontal--collapse">
+        <p>
+          We're proud to represent the mitten state, being firmly headquartered here and delivering work from just outside
+          Detroit. Michigan's fresh water and technical talent make it the ideal region for the next century.
+        </p>
+
+        <p>
+          From our perch (pun intended) in the Great Lakes State, we still have a global reach, providing code and services
+          to clients and partners located everywhere, including:
+        </p>
+
+        <ul>
+          <li>New York, NY</li>
+          <li>San Francisco, CA</li>
+          <li>Washington, D.C. and surrounding area</li>
+          <li>United Kingdom</li>
+          <li>South Africa</li>
+        </ul>
+
+        <p>
+          Don't see your location on the list? <a href="mailto:brad@solveitonce.com">Get in touch with Brad</a> to get it
+          added.
+        </p>
       </aside>
     </div>
   </div>

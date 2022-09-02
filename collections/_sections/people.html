@@ -7,10 +7,15 @@ classes: "text-align--center"
 #published: true
 #tags: ["three", "four"]
 title: "The who's who"
-title_classes: " heading--h1"
+title_classes: "heading--h2"
 ---
 
-{% include atoms/spacer.html size="4" %}
+<p class="font-size--p875em">
+  For now it's just Brad and subcontractors like <a href="https://www.jimkleiber.com/">Jim</a>, but keep an eye here as
+  we rapidly grow!
+</p>
+
+{% include atoms/spacer.html size="2" %}
 
 {% if site.people[0] %}
   <ul class="list-style--none layout--multiple--horizontal">
