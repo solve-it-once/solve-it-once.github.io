@@ -57,9 +57,9 @@ title: "Site map"
 {% assign collections = site.collections | where_exp:'collection','collection.output != false' %}
 {% for collection in collections %}
   {% assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' | sort: "title", "last" %}
-  {% if docs[1] %}
+  {% if docs[0] %}
     {% assign zebra = forloop.index | modulo: 2 %}
-    <section class="layout--stripe {% if zebra >= 1 %}background-color--white{% endif %}">
+    <section class="layout--stripe {% if zebra >= 1 %}background-color--white{% else %}background-color--grey-light{% endif %}">
       <div class="layout--stripe--inner">
         <h2 id="#{{ collection.label | slugify }}" class="text-transform--capitalize">{{ collection.label }}</h2>
 

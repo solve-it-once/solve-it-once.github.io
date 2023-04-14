@@ -47,6 +47,9 @@ images:
   - path: '1200x630/brad-czerniak.jpg.webp'
     height: 630
     width: 1200
+  - path: '1200x630/share_pie-in-the-sky.png'
+    height: 630
+    width: 1200
   - path: '1200x630/banana.jpg.webp'
     height: 630
     width: 1200
@@ -128,6 +131,9 @@ images:
   - path: '1200x630/share_about-so1ve.png.webp'
     height: 630
     width: 1200
+  - path: '1200x630/share_pie-in-the-sky.png.webp'
+    height: 630
+    width: 1200
   - path: '1200x630/share_jamstack-full.png'
     height: 630
     width: 1200
@@ -152,6 +158,9 @@ images:
   - path: 'brands/screenshots/zenput.png'
     height: 630
     width: 1200
+  - path: 'brands/screenshots/asu-stemteachers.png.webp'
+    height: 630
+    width: 1200
   - path: 'brands/screenshots/zenput.png.webp'
     height: 630
     width: 1200
@@ -165,6 +174,9 @@ images:
     height: 630
     width: 1200
   - path: 'brands/screenshots/provisio.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/asu-stemteachers.png'
     height: 630
     width: 1200
   - path: 'brands/screenshots/axehead.png.webp'
@@ -212,6 +224,9 @@ images:
   - path: 'brands/logos/pgc.png'
     height: 122
     width: 196
+  - path: 'brands/logos/arizona-state-university-stemteachers.png'
+    height: 234
+    width: 303
   - path: 'brands/logos/axehead.jpg.webp'
     height: 133
     width: 244
@@ -230,6 +245,9 @@ images:
   - path: 'brands/logos/umadmissions.png.webp'
     height: 200
     width: 300
+  - path: 'brands/logos/arizona-state-university-stemteachers.png.webp'
+    height: 234
+    width: 303
   - path: 'brands/logos/nypl.png.webp'
     height: 158
     width: 253
@@ -263,6 +281,9 @@ images:
   - path: 'michigan-drupal.png'
     height: 600
     width: 600
+  - path: 'frost_accordion-in-tab.jpg.webp'
+    height: 897
+    width: 1337
   - path: 'in-css/hero-home.jpg'
     height: 972
     width: 1920
@@ -281,6 +302,9 @@ images:
   - path: 'badges/pantheon.png'
     height: 178
     width: 200
+  - path: 'frost_privacy-policy.jpg'
+    height: 1547
+    width: 1345
   - path: 'required/tile.png'
     height: 558
     width: 558
@@ -338,6 +362,15 @@ images:
   - path: 'required/logo.png'
     height: 375
     width: 640
+  - path: 'frost_privacy-policy.jpg.webp'
+    height: 1547
+    width: 1345
+  - path: 'frost_css-and-js.jpg.webp'
+    height: 1547
+    width: 1275
+  - path: 'frost_accordion-in-tab.jpg'
+    height: 897
+    width: 1337
   - path: 'undraw_welcome_3gvl.png.webp'
     height: 891
     width: 1108
@@ -350,6 +383,9 @@ images:
   - path: 'undraw_To_do_list_re_9nt7.png.webp'
     height: 629
     width: 1089
+  - path: 'frost_css-and-js.jpg'
+    height: 1547
+    width: 1275
   - path: 'undraw_welcome_3gvl.png'
     height: 891
     width: 1108
@@ -363,6 +399,12 @@ images:
     height: 360
     width: 480
   - path: 'youtube/wM3MnO3H8jE.jpg.webp'
+    height: 360
+    width: 480
+  - path: 'youtube/bpi0KBzs23w.jpg'
+    height: 360
+    width: 480
+  - path: 'youtube/bpi0KBzs23w.jpg.webp'
     height: 360
     width: 480
   - path: 'youtube/jNQXAC9IVRw.jpg'

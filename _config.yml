@@ -273,6 +273,9 @@ collections:
   forms:
     output: false
     permalink: /:title/
+  jobs:
+    output: true
+    permalink: /careers/:path/
   people:
     output: true
     permalink: /people/:path/
@@ -304,6 +307,13 @@ defaults:
       type: "forms"
     values:
       layout: "form"
+  - scope:
+      path: ""
+      type: "jobs"
+    values:
+      layout: "job"
+      schema:
+        type: "JobPosting"
   - scope:
       path: ""
       type: "pages"

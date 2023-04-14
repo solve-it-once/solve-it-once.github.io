@@ -18,98 +18,113 @@ tags: ["Meta"]
 title: "Introducing frost"
 ---
 
-## Solutis longo nostri usus
+It seems like there's a few common pitfalls at the outset of a big web project:
 
-Lorem markdownum avita mulcebat virtute. Similemque membra Ismenis ne visa
-serpentis populis? Cum omnia, et nec aethere aetas cui patria pacisci. Muneris
-fertur resistit me pariter sanguine: [poteram](#estdeae)
-modo secum, oderat marmoreamque quis; per.
+  1. Underestimating front-end development time
+  2. Forgetting about the boring pages, like the Privacy Policy
+  3. Assuming the Content Management System can do more than it can by default
 
-```
-if (packDay(num_cpa_surface, 73, worm_address_dbms) == noc_ivr) {
-  wheel.nameWhoisUp -= whitelist_controller;
+[frost](https://frostdrupal.com/) is a strong attempt to circumvent those pitfalls when making new sites in Drupal, so
+projects can stay on track. Let's take a look at some of its key features:
+
+{% include molecules/youtube.html
+  id="bpi0KBzs23w"
+%}
+
+## Fully-implemented front end
+
+Just like popular site-building tools and ready-made themes for other systems, frost's `frost_theme` has all the styles
+and JavaScript snippets needed to launch a functional and beautiful website quickly.
+
+{% include atoms/image.html
+  src="frost_css-and-js.jpg"
+  alt="frost in PHPStorm, showing the CSS and JS structure"
+  classes="box-shadow--lifted-edges"
+%}
+
+Out of the box this lets you quickly develop new components, yes, but also you don't have to worry about:
+
+  * Mobile "Hamburger" menu and drawer
+  * Search bar
+  * Responsive layouts, even complex ones
+  * Teasers and cards for content listings
+  * Site footer with contact information and social icons
+  * Advanced components, such as tabbed interfaces and background videos _anywhere_
+
+More than that, frost_theme will _keep_ you productive.
+
+```css
+.flex-direction--column {
+  flex-direction: column;
 }
-var mirroredGigahertz = 5;
-if (5 - ipProxyMenu) {
-  technology_ics_pda(compatible, troubleshooting_zero_party);
-  itunes_swipe = zip;
-}
-mode.upMicrophone += direct_clean_shift(suffix_multi_multi, bitmap(
-    nic_deprecated_waveform) + 3);
 ```
 
-## Qui viae vertuntur linguae
+If the utility class above makes sense to you -- that the property name is first (hyphens included), then two hyphens,
+then the value associated with the property -- then clearly you know CSS well, and you also know 90% of the utility classes
+in the theme by heart already!
 
-Fruticosa ipsa; qui quae praelate, aderat, Tyria pedibus, et clavam faciem nec
-adpositi ignibus. Iste que mentis sanguine generis: amittere montibus quidem
-adlabimur ardua respicit. Cessent funda est arbore revocare et increpor confinia
-ligamina et siqua extenuat, puppis. Sine deus domos formosa et obicit Proximus
-Opem digna de, sed. Poscit vultus nares, quo oculis altaria servatae, nostro,
-iram longis **et iaculo tulerunt**?
+Similarly, the JavaScript 'partials' directory has useful examples of how frost (and its JAMstack sibling, finished-starter)
+handles behavior lifecycle:
 
-Di **Neptunus** plausis quoque, separat insolida propago hoc linguae dixit
-solvit. Qui quas animo **quod filius carpat** vindicet illos, matre vehebat sis.
-Cuncti opprimere ferebam?
+  1. Once the DOM is ready for the script, the `utilityInitializer()` function runs the functions registered to it to make the component ready
+  2. If new elements are added to the DOM, `utilityInitializer()`'s mutationObserver will get those components ready, too
+  3. Clicks and other events are bubbled and filtered from the body, so the listener will pick up dynamically-added components
 
-## Enim ignes tam primum
+## The boring pages: done!
 
-Est paelice diversorum iaculum segetis _virque has_ erat, nunc. Et **Macareus
-illa**, aut cornua quantam manu animasse ignibus reppulit nascentia freti multa.
-Cum hunc, turpes!
+On day one, just minutes after going through the installer, your new frost Drupal site has:
 
-Servantis **id Procne erat** levi fatetur, apium potes loco canes positus
-vituli, non sedit et audierit, Phoebus. Iam Iapygis, rutilum Mygdoniusque
-veniente, aras ab linguae volucrumque nobis proicit algae.
+  * [Home](https://www.frostdrupal.com/page/home)
+  * [Search](https://www.frostdrupal.com/search)
+  * [Events](https://www.frostdrupal.com/event)
+  * [Events archive](https://www.frostdrupal.com/event/archive)
+  * [Contact us](https://www.frostdrupal.com/contact-us)
+  * [FAQs](https://www.frostdrupal.com/page/frequently-asked-questions)
+  * [Blog](https://www.frostdrupal.com/article)
+  * [Privacy Policy](https://www.frostdrupal.com/page/privacy-policy)
+  * [Accessibility Statement](https://www.frostdrupal.com/page/accessibility-statement)
+  * [404 template](https://www.frostdrupal.com/page/404-not-found)
+  * [Generic thank you page](https://www.frostdrupal.com/page/thank-you)
+  * [Component guide](https://www.frostdrupal.com/page/component-guide)
+  * [Style guide](https://www.frostdrupal.com/admin/appearance/styleguide)
+  * [About us template](https://www.frostdrupal.com/page/about)
+  * [Press](https://www.frostdrupal.com/page/press)
+  * [Terms & Conditions](https://www.frostdrupal.com/page/terms-conditions)
 
-Ortus citraque horum dis ululasse labor si, membris nec potius pectora sub nemo
-movit consensu. Per ante, gerit, prospiciunt fortunata per vallibus Osiris
-commune crines, prius actis [tellure sed quam](#fulgorem-arescere.io)
-neque.
+Not only are most of these pages worded in a generic-enough manner that you may not have to tweak them at all, but they
+also look pretty cool!
 
-## Ingens saecula habendam umbrosum carcere Polydore devotaque
+{% include atoms/image.html
+  src="frost_privacy-policy.jpg"
+  alt="Screenshot of the frost default Privacy Policy, with images and alternating stripes for interest"
+  classes="box-shadow--lifted-edges border--1px-solid"
+%}
 
-Lorem markdownum auras. In quaque hoc loqui, si tamen dea additus; perque.
+At some point before or after launching your site, you're bound to have to think about all those pages, plus XML sitemaps
+and all the jazz every site needs to have. With frost you can worry a lot less.
 
-## Venit destrinxit cum
+## Does what you want it to
 
-Aulidaque nomina fixa oracla Hector _et quid_ quod exhalantem, artus flores
-magnorum relevasse postquam. Ceperat auribus, tramite iure subita _esse
-nostris_, secum et parentem ignis attraxerat pedibusque incola vix.
+If you've ever had the pleasure of having a website made for you, there may have been hiccups, like:
 
-Altera tenebrosa tu [flores virginibus](#per-quod) frangitur crevit iactatibus
-hoc silentia! Quod massa fontis faticano, da cum huc sensi tum?
+> Here's your listing page of case studies with filters for categories. Pretty cool, huh? Oh, you want some intro text?
+> No problem. **And** regular page content below?! That would be an additional 8 development hours.
 
-## Et nec iecit
+...or...
 
-Lucifero dici biiugum est **novissimus caret virtus** qui quoque ecce? Quam quid
-nemorum undis mira **medio ministerio deorum** quoque, pestiferaque nulla me
-pectora consule vibrata, ab. Illa in vernos, commendat mediocris mors attollite
-adhuc natusque capillis labens.
+> The designs don't have an accordion in a right column. To make that happen we'd have to refactor the frontend theme.
+> Well that would be a few thousand dollars over the original scope...
 
-## Capaci fluit
+**With frost** you can put your accordions where you want, and your listing page can be customized to your heart's content.
 
-Namque tellus silentia dabat loquerentur, aras deus feremus corpora. Vir salutat
-Iamque. [Certa rustica](#ingratasque-timor) vigilans nisi vestem taurum. Echo in
-noctis vellera te Pelides aestu; sed ora equorum arbore formamque aethera e
-tamen Acrisio. Vultus seductas saepe in serta vocat ostentare iaculabile
-custodemque aquis, aura ope.
+{% include atoms/image.html
+  src="frost_accordion-in-tab.jpg"
+  alt="A set of tabs, with the visible tab containing an accordion, for demonstration purposes."
+  classes="box-shadow--lifted-edges"
+%}
 
-- Sic breve sude
-- Sua speciem nympha magno
-- Lugeat spicula Oleniden fertur
+## Also: free and easy
 
-## Veloque filia et obsisto
-
-Per ter, ante tua. Quoque venientem quae. Flet exstabant [Inachus
-truncum](#levis-mox-hoc) praeferrer magnosque pudici vacca rogat; Oileos sine
-secantes et.
-
-1. Et caede
-2. Amat et veluti dextris corpore depresso voco
-3. Transibat prensos suae serta
-4. Viribus diros
-
-Habebat nil vosne quod, ait in Pergama arces fessos quidem, erat temerarius
-appellantque nescio clarus. Aliis nocituraque illa et virgo hoc est virgamque
-aureus iam iam tanta subsedit proxima nostro gerentes exanimis Haemonio eundo?
-Et me ineo longius. Nereidum ut murmure infans dolorque disces tamen mariti.
+[frost](https://frostdrupal.com/) is based on Drupal, which is free and open source software.
+[You can clone or fork the code](https://github.com/solve-it-once/frost) and have a working local version of the site ready
+to go in minutes. If you're not a PHP developer, though, you may want to [hire Brad to set it up for you](/products/drupal-site).

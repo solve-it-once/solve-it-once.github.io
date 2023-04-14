@@ -1,7 +1,6 @@
 {% capture component %}
   <div class="product--summary {% if include.classes %}{{ include.classes }}{% endif %}">
-    <p><em>SKU</em>: {{ include.entity.sku }}</p>
-    <p><em>Price</em>: <strong>{{ include.entity.price }}</strong></p>
+    <p><em>Price</em>: <strong><span class="currency">$</span>{{ include.entity.price }}</strong></p>
   </div>
 {% endcapture %}
 

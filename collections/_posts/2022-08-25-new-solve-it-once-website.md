@@ -5,7 +5,7 @@ authors:
 #date: 2020-03-03 02:02:02
 #hero_classes: "background-color--main-dark color--white"
 meta:
-  description: "A blog post with example content and front matter."
+  description: "Watch this space: Solve it once will not slow down."
 #  image:
 #    alt: "Default social image" # It's okay for this to be empty if the image is decorative
 #    src: required/meta-image--default.jpg
@@ -18,98 +18,80 @@ tags: ["Meta"]
 title: "Welcome to the new Solve it once website"
 ---
 
-## Solutis longo nostri usus
+## A website two years in the making
 
-Lorem markdownum avita mulcebat virtute. Similemque membra Ismenis ne visa
-serpentis populis? Cum omnia, et nec aethere aetas cui patria pacisci. Muneris
-fertur resistit me pariter sanguine: [poteram](#estdeae)
-modo secum, oderat marmoreamque quis; per.
+One thing they surely tell you about starting a business, but that is easy enough to ignore and forget, is that you can't
+know when you'll be busy all of the sudden.
 
-```
-if (packDay(num_cpa_surface, 73, worm_address_dbms) == noc_ivr) {
-  wheel.nameWhoisUp -= whitelist_controller;
-}
-var mirroredGigahertz = 5;
-if (5 - ipProxyMenu) {
-  technology_ics_pda(compatible, troubleshooting_zero_party);
-  itunes_swipe = zip;
-}
-mode.upMicrophone += direct_clean_shift(suffix_multi_multi, bitmap(
-    nic_deprecated_waveform) + 3);
-```
+When client work and life get busy, the "business development" category can be delayed to the back burner the easiest. In
+my case, that meant wanting to replace my perennial coming-soon page with a real website, but prioritizing paying clients
+and family for over two years.
 
-## Qui viae vertuntur linguae
+You can imagine what a relief this website launch is, then!
 
-Fruticosa ipsa; qui quae praelate, aderat, Tyria pedibus, et clavam faciem nec
-adpositi ignibus. Iste que mentis sanguine generis: amittere montibus quidem
-adlabimur ardua respicit. Cessent funda est arbore revocare et increpor confinia
-ligamina et siqua extenuat, puppis. Sine deus domos formosa et obicit Proximus
-Opem digna de, sed. Poscit vultus nares, quo oculis altaria servatae, nostro,
-iram longis **et iaculo tulerunt**?
+## A quick catch-up
 
-Di **Neptunus** plausis quoque, separat insolida propago hoc linguae dixit
-solvit. Qui quas animo **quod filius carpat** vindicet illos, matre vehebat sis.
-Cuncti opprimere ferebam?
+Solve it once was founded June 2, 2020, just days after COVID lockdowns were lifted in Michigan. I had been spending
+Spring 2020 enjoying some much-needed time off (having quit my last full-time job of 7+ years in February):
 
-## Enim ignes tam primum
+  * Hand-renovated my kitchen with drywall, flooring, cabinets, countertops, paint, and some new electrical and appliances
+  * Made a [wedding website for Shelby and I](https://shelbybrad.com/)
+  * Did some wedding planning and made cool invitations
+  * Used the wedding website codebase to make a [maximalist JAMstack starter](https://lowerbarriers.org/finished-starter)
+  * Took everything I'd learned about Drupal and turned it into what eventually became [frost](https://www.frostdrupal.com/)
+  * Jogged my way back to double-digit-miles weekly long runs
+  * Watched an unconscionable amount of Star Trek and YouTube
+  * Played Risk by email with multiple groups of friends
+  * Got a taste of freelancing prior to formally starting Solve it once
 
-Est paelice diversorum iaculum segetis _virque has_ erat, nunc. Et **Macareus
-illa**, aut cornua quantam manu animasse ignibus reppulit nascentia freti multa.
-Cum hunc, turpes!
+It turns out that I really like freelancing and working from home, so starting a business to do that felt like a no-brainer!
 
-Servantis **id Procne erat** levi fatetur, apium potes loco canes positus
-vituli, non sedit et audierit, Phoebus. Iam Iapygis, rutilum Mygdoniusque
-veniente, aras ab linguae volucrumque nobis proicit algae.
+I was on a roll when it came to filing new entities with the State of Michigan, so in do-gooder fashion my friends and I
+also founded [lower barriers](https://lowerbarriers.org/). Progress there can sometimes feel slow in comparison to all the
+nine-to-five work, but we have a lot of fun getting on video calls and mustering through Robert's Rules of Order.
 
-Ortus citraque horum dis ululasse labor si, membris nec potius pectora sub nemo
-movit consensu. Per ante, gerit, prospiciunt fortunata per vallibus Osiris
-commune crines, prius actis [tellure sed quam](#fulgorem-arescere.io)
-neque.
+### The first two years
 
-## Ingens saecula habendam umbrosum carcere Polydore devotaque
+The details would probably be boring, so here are some bullet points:
 
-Lorem markdownum auras. In quaque hoc loqui, si tamen dea additus; perque.
+  * June/July 2020: Set up Google Drive and domains, made boilerplate, opened a bank account, parked socials, etc.
+  * July 2020 to February 2021: First three clients! It felt like a miracle that work was coming in
+  * February 2021 to September 2021: Focused on fourth client, New York Public Library. A dream come true
+  * September 2021 to February 2022: Caught back up with Pat Oja from [Provisio](https://provisiosolutions.com/) and worked part-time clients
+  * February 2022 through July 2022: Worked full-time contract for Tactis, getting the opportunity to work on recognizable brands
+  * August 2022 to present: Spent a month making frost a reality and getting this website launched. Ready for your business!
 
-## Venit destrinxit cum
+Throughout it all, I've tried to provide some coaching and mentoring to motivated friends who wanted to get into web development,
+which is very rewarding. And it's especially great to have a standing weekly appointment with friends.
 
-Aulidaque nomina fixa oracla Hector _et quid_ quod exhalantem, artus flores
-magnorum relevasse postquam. Ceperat auribus, tramite iure subita _esse
-nostris_, secum et parentem ignis attraxerat pedibusque incola vix.
+In those two years there have been some particularly interesting projects that could benefit from a blog post of their own.
+That's a big reason to subscribe to this blog (or the newsletter using the subscription form on the home page).
 
-Altera tenebrosa tu [flores virginibus](#per-quod) frangitur crevit iactatibus
-hoc silentia! Quod massa fontis faticano, da cum huc sensi tum?
+## Drupal business, JAMstack website
 
-## Et nec iecit
+The site you're on right now is made with the Jekyll static site generator (using the aforementioned finished-starter template)
+and hosted for free on GitHub Pages. It's weird to focus mostly on Drupal sites and market them from the JAMstack site,
+but it would be hypocritical not to practice what I preach about minimizing overhead and recurring costs for small businesses.
 
-Lucifero dici biiugum est **novissimus caret virtus** qui quoque ecce? Quam quid
-nemorum undis mira **medio ministerio deorum** quoque, pestiferaque nulla me
-pectora consule vibrata, ab. Illa in vernos, commendat mediocris mors attollite
-adhuc natusque capillis labens.
+That hosting bill is taking a cut of your paycheck, so if you don't need all the features and creature comforts of a CMS
+like Drupal, and especially if you have the technical chops to write your own HTML, I heartily recommend using a simpler
+site platform to keep costs down.
 
-## Capaci fluit
+### What I think is cool about the site
 
-Namque tellus silentia dabat loquerentur, aras deus feremus corpora. Vir salutat
-Iamque. [Certa rustica](#ingratasque-timor) vigilans nisi vestem taurum. Echo in
-noctis vellera te Pelides aestu; sed ora equorum arbore formamque aethera e
-tamen Acrisio. Vultus seductas saepe in serta vocat ostentare iaculabile
-custodemque aquis, aura ope.
+This site, being based on [finished-starter](https://github.com/lowerbarriers/finished-starter), has all the features
+of the template, plus new components for the homepage wall of logos among other nifty things.
 
-- Sic breve sude
-- Sua speciem nympha magno
-- Lugeat spicula Oleniden fertur
+Here are a few things you may not have immediately noticed that I think are cool:
 
-## Veloque filia et obsisto
+  * In the footer there's a link to 'Documentation', which is a treasure trove of wild stuff you can borrow
+  * **flat-rate Drupal websites and sprints**. I don't know if they will be popular, but I think it's cool
+  * Speaking of, that's lightweight snipcart e-commerce powering the products
 
-Per ter, ante tua. Quoque venientem quae. Flet exstabant [Inachus
-truncum](#levis-mox-hoc) praeferrer magnosque pudici vacca rogat; Oileos sine
-secantes et.
+Now that the site is a reality, I'm hoping to be able to put an afternoon here and there into subtle improvements. All the
+more reason to come back and see what's new!
 
-1. Et caede
-2. Amat et veluti dextris corpore depresso voco
-3. Transibat prensos suae serta
-4. Viribus diros
+## Thank you
 
-Habebat nil vosne quod, ait in Pergama arces fessos quidem, erat temerarius
-appellantque nescio clarus. Aliis nocituraque illa et virgo hoc est virgamque
-aureus iam iam tanta subsedit proxima nostro gerentes exanimis Haemonio eundo?
-Et me ineo longius. Nereidum ut murmure infans dolorque disces tamen mariti.
+Thank you for visiting the site, for reading this post, and for considering so1ve for your next ambitious web project.
+Please reach out and say hi!

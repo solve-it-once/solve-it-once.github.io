@@ -58,15 +58,15 @@ brands:
     name: "Provisio Technology Solutions"
     screenshot: "brands/screenshots/provisio.png"
     slug: "provisio"
-  - href: "https://axeheadwatch.shop/"
+  - href: "https://stemteachers.asu.edu/"
     active: true
-    subcontract: false
-    date_range: "2021/07 - present"
-    description: "We are people who love luxury, and love finding great deals on watches"
-    logo: "brands/logos/axehead.jpg"
-    name: "Axe Head Watchmakers"
-    screenshot: "brands/screenshots/axehead.png"
-    slug: "axehead"
+    subcontract: true
+    date_range: "2023/01 - present"
+    description: "The Arizona STEM Acceleration Project (ASAP) is a new initiative transforming how Arizona’s K-12 educators deliver high-quality, hands-on STEM activities to our state’s future leaders. "
+    logo: "brands/logos/arizona-state-university-stemteachers.png"
+    name: "ASU ASAP"
+    screenshot: "brands/screenshots/asu-stemteachers.png"
+    slug: "stemteachers"
   - href: "https://www.princegeorgescountymd.gov/"
     active: true
     subcontract: true

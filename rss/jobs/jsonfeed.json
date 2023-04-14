@@ -1,0 +1,7 @@
+---
+collection: "jobs"
+layout: jsonfeed
+meta:
+  description: "All of the job positings on the site, in https://jsonfeed.org/ format"
+title: "Careers"
+---
