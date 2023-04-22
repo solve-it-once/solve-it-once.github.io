@@ -14,9 +14,9 @@
         data-item-name={{ include.entity.title | jsonify }}
         data-item-price="{{ include.entity.price }}"
         {% if include.entity.meta.image.src %}
-          data-item-image="{{ site.url }}{{ site.subpath }}/assets/images/{{ include.entity.meta.image.src }}"
+          data-item-image="{{ site.url | replace: 'http:', 'https:' }}{{ site.subpath }}/assets/images/{{ include.entity.meta.image.src }}"
         {% endif %}
-        data-item-url="{{ include.entity.url | absolute_url }}"
+        data-item-url="{{ include.entity.url | absolute_url | replace: 'http:', 'https:' }}"
         data-item-description="{{ include.entity.meta.description }}"
       >
         {% include atoms/icon.html
