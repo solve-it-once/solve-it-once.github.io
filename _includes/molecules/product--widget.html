@@ -1,10 +1,5 @@
 {% capture component %}
   <div class="product--widget layout--hide--no-javascript {% if include.classes %}{{ include.classes }}{% endif %}">
-    <div class="product--widget--quantity">
-      <label for="{{ include.entity.sku | slugify }}-quantity">Quantity:</label>
-      <input type="number" id="{{ include.entity.sku | slugify }}-quantity" name="{{ include.entity.sku | slugify }}-quantity"
-        class="product--widget--quantity--input" min="1" value="1" />
-    </div>
     <div class="product--widget--buy-button">
       {% include atoms/spacer.html size=2 %}
       <button type="button"
