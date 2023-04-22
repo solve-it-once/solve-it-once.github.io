@@ -6,7 +6,7 @@
  */
 
 const snipcartCheckout = `
-  <button type="button" class="snipcart-checkout color--grey position--fixed
+  <button type="button" class="snipcart-checkout position--fixed
     top--0 right--0 margin-horizontal--4 margin-vertical--4 z-index--9">
     <figure class="figure figure--icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 27">

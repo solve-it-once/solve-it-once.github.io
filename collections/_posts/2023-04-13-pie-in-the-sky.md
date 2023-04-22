@@ -14,7 +14,7 @@ meta:
 #permalink: /blog/post-title/
 #published: true
 #sitemap: true
-tags: ["Meta"]
+tags: ["Clients", "Project Management"]
 title: "Pie in the sky"
 ---
 

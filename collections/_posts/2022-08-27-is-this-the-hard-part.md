@@ -14,7 +14,7 @@ meta:
 #permalink: /blog/post-title/
 #published: true
 #sitemap: true
-tags: ["Groupthink", "Agile", "Drupal"]
+tags: ["Groupthink", "Agile", "Drupal", "Project Management"]
 title: "How much more effort?"
 ---
 

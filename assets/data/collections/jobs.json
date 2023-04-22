@@ -3,7 +3,7 @@ entity_type: jobs
 layout: compress
 limit: 100
 meta:
-  description: "Listing of all event content on the site"
+  description: "Listing of all jobs content on the site"
 ---
 [
   {% for entity in site[page.entity_type] limit: page.limit %}

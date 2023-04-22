@@ -660,6 +660,9 @@ ol ol {
 ol ol ol {
   list-style-type: lower-roman;
 }
+li {
+  max-width: 75ch;
+}
 
 /**
  * Ensure <video> tags are responsive like <img> tags.
@@ -754,6 +757,14 @@ textarea {
     max-width: 700px; /* Arbitrary, but about right. */
     width: 100%;
   }
+}
+/**
+ * Constrain number inputs to a reasonable, arbitrary width.
+ *
+ * The primary place number inputs are used is product widgets.
+ */
+input[type="number"] {
+  max-width: calc(8.5 * var(--spacing--single));
 }
 button,
 input {

@@ -6,6 +6,7 @@
         class="product--widget--quantity--input" min="1" value="1" />
     </div>
     <div class="product--widget--buy-button">
+      {% include atoms/spacer.html size=2 %}
       <button type="button"
         class="buy-button snipcart-add-item"
         data-item-quantity="{{ include.entity.starting_quantity }}"
@@ -18,6 +19,10 @@
         data-item-url="{{ include.entity.url | absolute_url }}"
         data-item-description="{{ include.entity.meta.description }}"
       >
+        {% include atoms/icon.html
+          library="octicons"
+          symbol="repo-template-private"
+        %}
         Add to cart
       </button>
     </div>

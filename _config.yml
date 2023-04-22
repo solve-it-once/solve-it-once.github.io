@@ -150,7 +150,7 @@ form_components:
 ## Comment out the below section if you don't have products, to prevent a small script from running on every page load.
 ## @see https://snipcart.com/
 snipcart:
-  api_key: "N2Q1OWZiOTMtODcyZi00OTUzLWFiYjAtNTAwMGYzZmE5YmI4NjM3MTk2NDYyNTQ4MTA5ODMx"
+  api_key: "ZGU1NjNhMmItZWNjMS00ODhlLTk4NDYtZDViOTcwY2QzMmUwNjM3MzM4MzYwOTgxMzUyMjA5"
 
 ## Woff2 files declared as webfonts in your css, relative to /assets/fonts/
 ## Placing them here sets them to be preloaded in the head, which reduces request chaining for better performance.
