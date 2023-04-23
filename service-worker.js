@@ -12,8 +12,8 @@ const PRECACHE_URLS = [
   'index.html',
   './',
   './?source=pwa',
-  'assets/css/style.css',
-  'assets/js/behavior.js'
+  'assets/css/pre-commit-dependency.css',
+  'assets/js/pre-commit-dependency.js'
 ];
 
 self.addEventListener('install', event => {
@@ -38,26 +38,6 @@ self.addEventListener('activate', event => {
       }));
     }).then(() => self.clients.claim())
   );
-});
-
-self.addEventListener('fetch', event => {
-  if (event.request.url.startsWith(self.location.origin)) {
-    event.respondWith(
-      caches.match(event.request).then(cachedResponse => {
-        if (cachedResponse) {
-          return cachedResponse;
-        }
-
-        return caches.open(RUNTIME).then(cache => {
-          return fetch(event.request).then(response => {
-            return cache.put(event.request, response.clone()).then(() => {
-              return response;
-            });
-          });
-        });
-      })
-    );
-  }
 });
 
 self.addEventListener('fetch', event => {
