@@ -80,7 +80,10 @@ let fetchFromNetworkAndCache = (event) => {
     if (new URL(result.url).origin !== location.origin) return result;
 
     return caches.open(PRECACHE).then(cache => {
-      cache.put(event.request, result.clone());
+      if (event.request.method && event.request.method === 'GET') {
+        cache.put(event.request, result.clone());
+      }
+
       return result;
     });
   }).catch(err => console.error(event.request.url, err));
