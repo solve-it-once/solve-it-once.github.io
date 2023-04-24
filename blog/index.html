@@ -42,6 +42,19 @@ title: "Blog"
 ---
 
 <section class="layout--stripe "><div class="layout--stripe--inner">
+  {% include atoms/heading.html
+    children="A big mix of topics"
+    classes="color--third-dark"
+    level="2"
+  %}
+
+  <p>so1ve aims to post blogs approximately once every two weeks. If you use an RSS reader,
+    <a href="https://solveitonce.com/rss/blog/">this blog RSS feed</a> can keep you up to date. Otherwise, subscribe to
+    our newsletter with the form near the bottom of this page to keep informed.
+  </p>
+
+  {% include atoms/spacer.html size="2" %}
+
   <ul class="list-style--none layout--multiple--horizontal">
     {% for post in paginator.posts %}
       {% include molecules/card.html

@@ -536,6 +536,26 @@
 }
 
 /**
+ * Main menu tweaks.
+ */
+.menu--main .menu-item > a {
+  color: var(--color--main);
+}
+.menu--main .menu-item > a:hover,
+.menu--main .menu-item > a:active,
+.menu--main .menu-item > a:focus,
+.menu--main .menu-item > a.active:not([href="/"]) {
+  background-color: var(--color--third-dark);
+  border-radius: var(--border-radius--default);
+  box-shadow: var(--box-shadow--default);
+  color: var(--color--white);
+  font-weight: bold;
+}
+.menu--main.border-spaced > li {
+  border-color: var(--color--white);
+}
+
+/**
  * Color palette boxes for the moodboards and style guide.
  */
 .palette {
