@@ -194,4 +194,4 @@ and projects out there. There are two mitigations for this to keep in mind, thou
     their services for the long term
   2. If you cannot find or create a strong technology leader, find a good non-technical leader and charge them with seeking
     feedback from the dev team early and often. The leader should then follow up with designers and other implementation
-    specialists to ensure the feedback is not ignored to the deptriment of the project and the rest of theam
+    specialists to ensure the feedback is not ignored to the detriment of the project and the rest of team

@@ -16,7 +16,7 @@ meta:
 #    alt: "Default social image"
 #    src: required/meta-image--default.jpg
 #  robots: "index,follow"
-#  title: "Overrides the tab title and social titles"
+  title: "Drupal web development in Michigan"
 #permalink: /index.html
 #published: true
 redirect_from:
@@ -164,30 +164,64 @@ title: "Home"
 </section>
 
 <section class="layout--stripe text-align--center">
-  {% include atoms/heading.html
-    children="We work on big sites"
-    classes="color--main"
-    level="2"
-  %}
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children="We work on big sites"
+      classes="color--main"
+      level="2"
+    %}
 
-  <p class="font-size--p875em color--grey-dark">
-    so1ve coded for all these clients. They're not all our <em>contracts</em>, but we're proud of this work.
-  </p>
+    <p class="font-size--p875em color--grey-dark">
+      so1ve coded for all these clients. They're not all our <em>contracts</em>, but we're proud of this work.
+    </p>
 
-  {% include molecules/data-listing.html
-    data="brands"
-    classes="display--flex flex-direction--row align-items--center justify-content--center"
-    item_classes="flex--1 padding-horizontal--4"
-  %}
+    <div class="display--flex layout--row justify-content--center">
+      <aside class="flex--1 display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8-
+          padding-horizontal--collapse">
+        {% include atoms/spacer.html size="2" %}
 
-  {% include atoms/spacer.html size="2" %}
+        {% include atoms/heading.html
+          children="Direct clients"
+          classes="heading--h4 font-family--secondary text-align--center color--third"
+          level="3"
+        %}
 
-  <p class="font-size--p875em color--grey-dark">
-    Special thanks to <a href="https://creative.umich.edu/">Michigan Creative</a>,
-    <a href="https://www.human-element.com/">Human Element</a>, <a href="https://provisiosolutions.com/">Provisio</a>,
-    <a href="https://www.tactis.com/">Tactis</a>, and <a href="https://casualastronaut.com/">Casual Astronaut</a> for the
-    wonderful sub-contracting opportunities — please consider them if so1ve isn't your speed.
-  </p>
+        {% include molecules/data-listing.html
+          data="brands"
+          classes="display--flex flex-direction--row align-items--center justify-content--center"
+          item_classes="flex--1 padding-horizontal--4"
+          subcontract="false"
+        %}
+      </aside>
+
+      <aside class="flex--1 display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8
+          padding-horizontal--collapse">
+        {% include atoms/spacer.html size="2" %}
+
+        {% include atoms/heading.html
+          children="Subcontract work"
+          classes="heading--h4 font-family--secondary text-align--center color--third"
+          level="3"
+        %}
+
+        {% include molecules/data-listing.html
+          data="brands"
+          classes="display--flex flex-direction--row align-items--center justify-content--center"
+          item_classes="flex--1 padding-horizontal--4"
+          subcontract="true"
+        %}
+      </aside>
+    </div>
+
+    {% include atoms/spacer.html size="2" %}
+
+    <p class="font-size--p875em color--grey-dark">
+      Special thanks to <a href="https://creative.umich.edu/">Michigan Creative</a>,
+      <a href="https://www.human-element.com/">Human Element</a>, <a href="https://provisiosolutions.com/">Provisio</a>,
+      <a href="https://www.tactis.com/">Tactis</a>, and <a href="https://casualastronaut.com/">Casual Astronaut</a> for the
+      wonderful sub-contracting opportunities — please consider them if so1ve isn't your speed.
+    </p>
+  </div>
 </section>
 
 <section class="layout--stripe text-align--center background-color--second-light">

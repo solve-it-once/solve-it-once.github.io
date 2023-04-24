@@ -255,6 +255,7 @@
  * Data listing component, site-specific.
  */
 .data-listing {
+  flex-wrap: wrap;
 }
 .data-listing picture {
   filter: saturate(0.25);
@@ -262,9 +263,15 @@
 .data-listing a:hover > picture {
   filter: revert;
 }
+.data-listing > * {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-width: 225px; /* Magic number. */
+  min-height: 135px; /* Magic number. */
+}
 @media all and (max-width: 1450px) {
   .data-listing {
-    flex-wrap: wrap;
     margin: 0 auto;
     max-width: 900px;
   }
@@ -635,26 +642,6 @@
     transition: var(--transition--default);
     z-index: 8;
   }
-}
-
-/**
- * Indicate a logo in the brand listing was a subcontract.
- */
-.subcontract {
-  position: relative;
-}
-.subcontract::before {
-  background: var(--color--grey-dark);
-  bottom: 0;
-  color: var(--color--white);
-  content: "subcontract";
-  display: inline-block;
-  font-size: 0.5em;
-  left: 30%;
-  opacity: 0.75;
-  padding: calc(0.5 * var(--spacing--single)) calc(1 * var(--spacing--single));
-  position: absolute;
-  z-index: 2;
 }
 
 /**
