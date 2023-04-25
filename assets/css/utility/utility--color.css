@@ -39,6 +39,9 @@
 .background-color--second-light {
   background-color: var(--color--second-light);
 }
+.background-color--second-light--transparent {
+  background-color: rgba(255, 207, 204, 0.75);
+}
 .background-color--third {
   background-color: var(--color--third);
 }

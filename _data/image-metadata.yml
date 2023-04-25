@@ -362,8 +362,14 @@ images:
   - path: 'in-css/eric-prouzet-tD49mqo7sjE-unsplash.jpg.webp'
     height: 1278
     width: 1920
+  - path: 'in-css/no-h8.jpg'
+    height: 1280
+    width: 1920
   - path: 'in-css/eric-prouzet-tD49mqo7sjE-unsplash.jpg'
     height: 1278
+    width: 1920
+  - path: 'in-css/no-h8.jpg.webp'
+    height: 1280
     width: 1920
   - path: 'in-css/hero-home.jpg.webp'
     height: 972
