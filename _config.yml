@@ -63,11 +63,6 @@ social:
     icon:
       library: simple-icons
       symbol: facebook
-  - title: Twitter
-    url: https://twitter.com/SolveItOnceLLC
-    icon:
-      library: simple-icons
-      symbol: twitter
   - title: LinkedIn
     url: https://www.linkedin.com/company/solve-it-once/
     icon:
@@ -78,6 +73,16 @@ social:
     icon:
       library: simple-icons
       symbol: github
+  - title: YouTube
+    url: https://www.youtube.com/@solveitonce
+    icon:
+      library: simple-icons
+      symbol: youtube
+  - title: Drupal.org
+    url: https://www.drupal.org/solve-it-once
+    icon:
+      library: simple-icons
+      symbol: drupal
 
 ## Press contact
 ## For small sites this is the same person and contact information as above. For companies... probably not.
