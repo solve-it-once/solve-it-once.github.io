@@ -76,11 +76,11 @@ title: "Home"
       level="2"
     %}
 
-    {% include atoms/spacer.html size="4" %}
-
     <div class="display--flex layout--row justify-content--center">
       <aside class="flex--1 display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8-
         padding-horizontal--collapse">
+        {% include atoms/spacer.html size="1" %}
+
         {% include atoms/heading.html
           children="Your old agency"
           classes="heading--h4 color--second"
@@ -97,6 +97,8 @@ title: "Home"
 
       <aside class="flex--1 display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8
         padding-horizontal--collapse">
+        {% include atoms/spacer.html size="1" %}
+
         {% include atoms/heading.html
           children="Solve it once"
           classes="heading--h4 color--third"
