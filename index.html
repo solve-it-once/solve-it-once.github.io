@@ -256,19 +256,21 @@ title: "Home"
 </section>
 
 <section class="layout--stripe text-align--center background-color--third-light">
-  {% include atoms/heading.html
-    children="Howdy, partner"
-    classes="color--third"
-    level="2"
-  %}
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children="Howdy, partner"
+      classes="color--third"
+      level="2"
+    %}
 
-  <p class="font-size--p875em color--grey-dark">
-    We'd love to partner with you as well, especially if your badge looks cool.
-  </p>
+    <p class="font-size--p875em color--grey-dark">
+      We'd love to partner with you as well, especially if your badge looks cool.
+    </p>
 
-  {% include molecules/data-listing.html
-    data="badges"
-    classes="display--flex flex-direction--row align-items--center justify-content--center"
-    item_classes="flex--1 padding-horizontal--4"
-  %}
+    {% include molecules/data-listing.html
+      data="badges"
+      classes="display--flex flex-direction--row align-items--center justify-content--center"
+      item_classes="flex--1 padding-horizontal--4"
+    %}
+  </div>
 </section>

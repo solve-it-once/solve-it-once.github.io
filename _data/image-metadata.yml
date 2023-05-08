@@ -239,6 +239,9 @@ images:
   - path: 'brands/screenshots/pgc.png'
     height: 630
     width: 1200
+  - path: 'brands/screenshots/spczgivingback.png'
+    height: 630
+    width: 1200
   - path: 'brands/screenshots/iqstrategix.png.webp'
     height: 630
     width: 1200
@@ -246,6 +249,9 @@ images:
     height: 630
     width: 1200
   - path: 'brands/screenshots/provisio.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/spczgivingback.png.webp'
     height: 630
     width: 1200
   - path: 'brands/screenshots/asu-stemteachers.png'
@@ -374,7 +380,13 @@ images:
   - path: 'in-css/hero-home.jpg.webp'
     height: 972
     width: 1920
+  - path: 'badges/spczgivingback.png'
+    height: 178
+    width: 200
   - path: 'badges/pantheon.png.webp'
+    height: 178
+    width: 200
+  - path: 'badges/spczgivingback.png.webp'
     height: 178
     width: 200
   - path: 'badges/pantheon.png'

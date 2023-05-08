@@ -13,3 +13,12 @@ badges:
     name: "Pantheon Partner Program"
     screenshot: "brands/screenshots/zenput.png"
     slug: "pantheon"
+  - href: "https://www.spczgivingback.org/home"
+    active: true
+    subcontract: false
+    date_range: "2020/06 - present"
+    description: "Charitable volunteer consultant for organizational development and change."
+    logo: "badges/spczgivingback.png"
+    name: "SPCz Giving Back"
+    screenshot: "brands/screenshots/spczgivingback.png"
+    slug: "spczgivingback"
