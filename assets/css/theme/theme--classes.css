@@ -459,12 +459,14 @@
   content: "";
   cursor: pointer;
   display: block;
+  filter: grayscale(100%) brightness(0);
   padding: calc(3.4 * var(--spacing--single));
   position: absolute;
   right: calc(50% - calc(3.4 * var(--spacing--single)));
+  transition: filter 0.3s ease-in-out;
 }
 .include--molecule--youtube:hover::after {
-  background-color: #f00;
+  filter: none;
 }
 
 /**

@@ -128,11 +128,17 @@ images:
   - path: '1200x630/frost_home-page.jpg'
     height: 630
     width: 1200
+  - path: '1200x630/share_github-org-template.png'
+    height: 630
+    width: 1200
   - path: '1200x630/czerniaks.jpg.webp'
     height: 630
     width: 1200
   - path: '1200x630/noaa-aySTZ82UGus-unsplash.jpg'
     height: 631
+    width: 1200
+  - path: '1200x630/share_github-org-template.png.webp'
+    height: 630
     width: 1200
   - path: '1200x630/share_consultation.png'
     height: 630
@@ -356,6 +362,9 @@ images:
   - path: 'time-value.jpg.webp'
     height: 600
     width: 600
+  - path: 'solve-it-once_github_screencap.png'
+    height: 1253
+    width: 1252
   - path: 'michigan-drupal.png'
     height: 600
     width: 600
@@ -392,6 +401,9 @@ images:
   - path: 'badges/pantheon.png'
     height: 178
     width: 200
+  - path: 'solve-it-once_github_screencap.png.webp'
+    height: 1253
+    width: 1252
   - path: 'frost_privacy-policy.jpg'
     height: 1547
     width: 1345
@@ -498,6 +510,12 @@ images:
     height: 360
     width: 480
   - path: 'youtube/bpi0KBzs23w.jpg'
+    height: 360
+    width: 480
+  - path: 'youtube/CkmY1kb6vq8.jpg'
+    height: 360
+    width: 480
+  - path: 'youtube/CkmY1kb6vq8.jpg.webp'
     height: 360
     width: 480
   - path: 'youtube/bpi0KBzs23w.jpg.webp'
