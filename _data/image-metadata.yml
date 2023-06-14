@@ -1,4 +1,13 @@
 images:
+  - path: 'frost_layout-overview.png.webp'
+    height: 1564
+    width: 668
+  - path: 'frost_header-footer-desktop.png'
+    height: 668
+    width: 1269
+  - path: 'frost_teasers_side-by-side.png'
+    height: 516
+    width: 1272
   - path: '1200x630/share_how-much-more-effort.png.webp'
     height: 630
     width: 1200
@@ -62,6 +71,9 @@ images:
   - path: '1200x630/axehead.jpg.webp'
     height: 630
     width: 1200
+  - path: '1200x630/share_frost-design-handoff.png'
+    height: 630
+    width: 1200
   - path: '1200x630/frost_mobile-drawer.jpg'
     height: 630
     width: 1200
@@ -78,6 +90,9 @@ images:
     height: 630
     width: 1200
   - path: '1200x630/frost-drupal-demonstration.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_frost-design-handoff.png.webp'
     height: 630
     width: 1200
   - path: '1200x630/bradczerniak.jpg'
@@ -359,12 +374,27 @@ images:
   - path: 'brands/logos/umadmissions.png'
     height: 200
     width: 300
+  - path: 'frost_wysiwyg-filtered.png'
+    height: 246
+    width: 772
+  - path: 'frost_cards-demo.png'
+    height: 421
+    width: 687
   - path: 'time-value.jpg.webp'
     height: 600
     width: 600
   - path: 'solve-it-once_github_screencap.png'
     height: 1253
     width: 1252
+  - path: 'frost_hero-atomic-stripe-edit.png.webp'
+    height: 1090
+    width: 1304
+  - path: 'frost_hotspot-demo.png'
+    height: 296
+    width: 416
+  - path: 'frost_blockquote-demo.png.webp'
+    height: 199
+    width: 639
   - path: 'michigan-drupal.png'
     height: 600
     width: 600
@@ -389,6 +419,12 @@ images:
   - path: 'in-css/hero-home.jpg.webp'
     height: 972
     width: 1920
+  - path: 'frost_default_stripe_backgrounds.png'
+    height: 1683
+    width: 1439
+  - path: 'frost_hero-atomic-stripe-edit.png'
+    height: 1090
+    width: 1304
   - path: 'badges/spczgivingback.png'
     height: 178
     width: 200
@@ -407,6 +443,15 @@ images:
   - path: 'frost_privacy-policy.jpg'
     height: 1547
     width: 1345
+  - path: 'frost_teasers_side-by-side.png.webp'
+    height: 516
+    width: 1272
+  - path: 'frost_hero-fallback.png.webp'
+    height: 608
+    width: 1027
+  - path: 'frost_hero-event-bundle-config.png.webp'
+    height: 1183
+    width: 1341
   - path: 'required/tile.png'
     height: 558
     width: 558
@@ -476,27 +521,93 @@ images:
   - path: 'frost_accordion-in-tab.jpg'
     height: 897
     width: 1337
+  - path: 'frost_stripe-atomic-settings.png.webp'
+    height: 1872
+    width: 1317
+  - path: 'frost_cards-demo.png.webp'
+    height: 421
+    width: 687
+  - path: 'frost_hero-fallback.png'
+    height: 608
+    width: 1027
   - path: 'undraw_welcome_3gvl.png.webp'
     height: 891
     width: 1108
   - path: 'undraw_To_do_list_re_9nt7.png'
     height: 629
     width: 1089
+  - path: 'frost_hero-bundle-event.png'
+    height: 724
+    width: 1216
+  - path: 'frost_hero-stripe-atomic.png'
+    height: 458
+    width: 1304
+  - path: 'frost_message-demo.png'
+    height: 257
+    width: 821
+  - path: 'frost_accordion-demo.png'
+    height: 325
+    width: 639
+  - path: 'frost_hero-stripe-atomic.png.webp'
+    height: 458
+    width: 1304
+  - path: 'frost_default_stripe_backgrounds.png.webp'
+    height: 1683
+    width: 1439
+  - path: 'frost_mobile-tray.png.webp'
+    height: 745
+    width: 496
+  - path: 'frost_blockquote-demo.png'
+    height: 199
+    width: 639
   - path: 'time-value.jpg'
     height: 600
     width: 600
   - path: 'undraw_To_do_list_re_9nt7.png.webp'
     height: 629
     width: 1089
+  - path: 'frost_hero-bundle-event.png.webp'
+    height: 724
+    width: 1216
+  - path: 'frost_hotspot-demo.png.webp'
+    height: 296
+    width: 416
   - path: 'frost_css-and-js.jpg'
     height: 1547
     width: 1275
   - path: 'undraw_welcome_3gvl.png'
     height: 891
     width: 1108
+  - path: 'frost_layout-overview.png'
+    height: 1564
+    width: 668
+  - path: 'frost_message-demo.png.webp'
+    height: 257
+    width: 821
+  - path: 'frost_accordion-demo.png.webp'
+    height: 325
+    width: 639
+  - path: 'frost_hero-event-bundle-config.png'
+    height: 1183
+    width: 1341
+  - path: 'frost_mobile-tray.png'
+    height: 745
+    width: 496
+  - path: 'frost_stripe-atomic-settings.png'
+    height: 1872
+    width: 1317
   - path: 'michigan-drupal.png.webp'
     height: 600
     width: 600
+  - path: 'frost_header-footer-desktop.png.webp'
+    height: 668
+    width: 1269
+  - path: 'frost_stripe-atomic-content.png'
+    height: 758
+    width: 1334
+  - path: 'frost_stripe-atomic-content.png.webp'
+    height: 758
+    width: 1334
   - path: 'bpcz_signature.png'
     height: 78
     width: 300
@@ -524,6 +635,9 @@ images:
   - path: 'youtube/jNQXAC9IVRw.jpg'
     height: 360
     width: 480
+  - path: 'frost_wysiwyg-filtered.png.webp'
+    height: 246
+    width: 772
   - path: 'flipped-brad-sqthmb200.jpg.webp'
     height: 200
     width: 200

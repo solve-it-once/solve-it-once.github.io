@@ -27,7 +27,7 @@
 
 /* Literal */
 .highlight .l {
-  color: var(--color--accent);
+  color: var(--color--third-light);
 }
 
 /* Name */
@@ -112,7 +112,7 @@
 
 /* Literal.Number */
 .highlight .m {
-  color: var(--color--accent);
+  color: var(--color--third-light);
 }
 
 /* Literal.String */
@@ -202,22 +202,22 @@
 
 /* Literal.Number.Float */
 .highlight .mf {
-  color: var(--color--accent);
+  color: var(--color--third-light);
 }
 
 /* Literal.Number.Hex */
 .highlight .mh {
-  color: var(--color--accent);
+  color: var(--color--third-light);
 }
 
 /* Literal.Number.Integer */
 .highlight .mi {
-  color: var(--color--accent);
+  color: var(--color--third-light);
 }
 
 /* Literal.Number.Oct */
 .highlight .mo {
-  color: var(--color--accent);
+  color: var(--color--third-light);
 }
 
 /* Literal.String.Backtick */
@@ -242,7 +242,7 @@
 
 /* Literal.String.Escape */
 .highlight .se {
-  color: var(--color--accent);
+  color: var(--color--third-light);
 }
 
 /* Literal.String.Heredoc */
@@ -297,7 +297,7 @@
 
 /* Literal.Number.Integer.Long */
 .highlight .il {
-  color: var(--color--accent);
+  color: var(--color--third-light);
 }
 
 /* Generic Heading & Diff Header */
