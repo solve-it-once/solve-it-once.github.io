@@ -83,6 +83,9 @@ images:
   - path: '1200x630/finished-starter.jpg.webp'
     height: 630
     width: 1200
+  - path: '1200x630/share_thriving.png'
+    height: 630
+    width: 1200
   - path: '1200x630/cytonn-photography-n95VMLxqM2I-unsplash.jpg.webp'
     height: 630
     width: 1200
@@ -159,6 +162,9 @@ images:
     height: 630
     width: 1200
   - path: '1200x630/banana.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_thriving.png.webp'
     height: 630
     width: 1200
   - path: '1200x630/deneau.jpg'
@@ -260,6 +266,9 @@ images:
   - path: 'brands/screenshots/pgc.png'
     height: 630
     width: 1200
+  - path: 'brands/screenshots/symmetri.png'
+    height: 630
+    width: 1200
   - path: 'brands/screenshots/spczgivingback.png'
     height: 630
     width: 1200
@@ -281,10 +290,16 @@ images:
   - path: 'brands/screenshots/axehead.png.webp'
     height: 630
     width: 1200
+  - path: 'brands/screenshots/principal-financial-group.png.webp'
+    height: 630
+    width: 1200
   - path: 'brands/screenshots/umadmissions.png.webp'
     height: 630
     width: 1200
   - path: 'brands/screenshots/nypl.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/principal-financial-group.png'
     height: 630
     width: 1200
   - path: 'brands/screenshots/pgc.png.webp'
@@ -297,6 +312,9 @@ images:
     height: 630
     width: 1200
   - path: 'brands/screenshots/bowerswilkins.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/symmetri.png.webp'
     height: 630
     width: 1200
   - path: 'brands/screenshots/doj.png.webp'
@@ -326,6 +344,9 @@ images:
   - path: 'brands/logos/arizona-state-university-stemteachers.png'
     height: 234
     width: 303
+  - path: 'brands/logos/symmetri.png'
+    height: 100
+    width: 320
   - path: 'brands/logos/axehead.jpg.webp'
     height: 133
     width: 244
@@ -341,6 +362,9 @@ images:
   - path: 'brands/logos/axehead.jpg'
     height: 133
     width: 244
+  - path: 'brands/logos/principal-financial-group.png.webp'
+    height: 743
+    width: 2560
   - path: 'brands/logos/umadmissions.png.webp'
     height: 200
     width: 300
@@ -350,6 +374,9 @@ images:
   - path: 'brands/logos/nypl.png.webp'
     height: 158
     width: 253
+  - path: 'brands/logos/principal-financial-group.png'
+    height: 743
+    width: 2560
   - path: 'brands/logos/pgc.png.webp'
     height: 122
     width: 196
@@ -359,6 +386,9 @@ images:
   - path: 'brands/logos/bowerswilkins.png'
     height: 271
     width: 400
+  - path: 'brands/logos/symmetri.png.webp'
+    height: 100
+    width: 320
   - path: 'brands/logos/doj.png.webp'
     height: 206
     width: 350

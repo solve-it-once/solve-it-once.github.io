@@ -85,3 +85,21 @@ brands:
     name: "United States Department of Justice"
     screenshot: "brands/screenshots/doj.png"
     slug: "doj"
+  - href: "https://symmetrimarketing.com/"
+    active: true
+    subcontract: true
+    date_range: "2023/05 - present"
+    description: "Symmetri is a full service Brand Identity, Digital Marketing, and Web development Agency. "
+    logo: "brands/logos/symmetri.png"
+    name: "Symmetri Marketing Group"
+    screenshot: "brands/screenshots/symmetri.png"
+    slug: "smg"
+  - href: "https://www.principal.com/"
+    active: true
+    subcontract: false
+    date_range: "2023/07 - present"
+    description: "We’re bound by one common purpose: to give you the financial tools, resources and information you need to live your best life."
+    logo: "brands/logos/principal-financial-group.png"
+    name: "Principal Financial Group"
+    screenshot: "brands/screenshots/principal-financial-group.png"
+    slug: "pfg"
