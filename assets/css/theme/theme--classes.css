@@ -79,11 +79,11 @@
 .background-image--gradient--second-light {
   background-image: linear-gradient(
     180deg,
-    rgba(255, 207, 204, 1) 0%,
-    rgba(255, 232, 232, 1) 4%,
-    rgba(255, 200, 200, 1) 50%,
-    rgba(255, 183, 180, 1) 96%,
-    rgba(255, 207, 204, 1) 100%
+    #ffcfcc 0%,
+    #ffe8e8 2%,
+    #ffc8c8 25%,
+    #ffb7b4 98%,
+    #ffcfcc 100%
   );
 }
 .background-image--gradient--third {
@@ -544,7 +544,10 @@
  * Main menu tweaks.
  */
 .menu--main .menu-item > a {
-  color: var(--color--main);
+  color: var(--color--third);
+  font-size: 1.125em;
+  font-weight: 500;
+  text-shadow: 0 0 5px var(--color--white);
 }
 .menu--main .menu-item > a:hover,
 .menu--main .menu-item > a:active,

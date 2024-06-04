@@ -1,122 +1,332 @@
 images:
-  - path: 'frost_layout-overview.png.webp'
-    height: 1564
-    width: 668
-  - path: 'frost_header-footer-desktop.png'
-    height: 668
-    width: 1269
+  - path: 'frost_hotspot-demo.png.webp'
+    height: 296
+    width: 416
+  - path: 'flipped-brad-sqthmb200.jpg.webp'
+    height: 200
+    width: 200
+  - path: 'frost_hero-fallback.png'
+    height: 608
+    width: 1027
+  - path: 'frost_stripe-atomic-settings.png.webp'
+    height: 1872
+    width: 1317
+  - path: 'in-css/eric-prouzet-tD49mqo7sjE-unsplash.jpg'
+    height: 1278
+    width: 1920
+  - path: 'in-css/eric-prouzet-tD49mqo7sjE-unsplash.jpg.webp'
+    height: 1278
+    width: 1920
+  - path: 'in-css/no-h8.jpg'
+    height: 1280
+    width: 1920
+  - path: 'in-css/no-h8.jpg.webp'
+    height: 1280
+    width: 1920
+  - path: 'in-css/hero-home.jpg'
+    height: 972
+    width: 1920
+  - path: 'in-css/hero-home.jpg.webp'
+    height: 972
+    width: 1920
+  - path: 'frost_hotspot-demo.png'
+    height: 296
+    width: 416
   - path: 'frost_teasers_side-by-side.png'
     height: 516
     width: 1272
-  - path: '1200x630/share_how-much-more-effort.png.webp'
+  - path: 'frost_hero-stripe-atomic.png'
+    height: 458
+    width: 1304
+  - path: 'frost_layout-overview.png.webp'
+    height: 1564
+    width: 668
+  - path: 'frost_accordion-demo.png'
+    height: 325
+    width: 639
+  - path: 'frost_default_stripe_backgrounds.png'
+    height: 1683
+    width: 1439
+  - path: 'solve-it-once_github_screencap.png'
+    height: 1253
+    width: 1252
+  - path: 'frost_message-demo.png.webp'
+    height: 257
+    width: 821
+  - path: 'flipped-brad-sqthmb200.jpg'
+    height: 200
+    width: 200
+  - path: 'frost_accordion-in-tab.jpg.webp'
+    height: 897
+    width: 1337
+  - path: 'frost_hero-stripe-atomic.png.webp'
+    height: 458
+    width: 1304
+  - path: 'frost_hero-event-bundle-config.png.webp'
+    height: 1183
+    width: 1341
+  - path: 'frost_blockquote-demo.png.webp'
+    height: 199
+    width: 639
+  - path: 'michigan-drupal.png.webp'
+    height: 600
+    width: 600
+  - path: 'frost_privacy-policy.jpg'
+    height: 1547
+    width: 1345
+  - path: 'badges/pantheon.png.webp'
+    height: 178
+    width: 200
+  - path: 'badges/spczgivingback.png.webp'
+    height: 178
+    width: 200
+  - path: 'badges/spczgivingback.png'
+    height: 178
+    width: 200
+  - path: 'badges/pantheon.png'
+    height: 178
+    width: 200
+  - path: 'frost_wysiwyg-filtered.png.webp'
+    height: 246
+    width: 772
+  - path: 'frost_teasers_side-by-side.png.webp'
+    height: 516
+    width: 1272
+  - path: 'youtube/OoJsPvmFixU.jpg'
+    height: 360
+    width: 480
+  - path: 'youtube/OoJsPvmFixU.jpg.webp'
+    height: 360
+    width: 480
+  - path: 'youtube/bpi0KBzs23w.jpg'
+    height: 360
+    width: 480
+  - path: 'youtube/jNQXAC9IVRw.jpg.webp'
+    height: 360
+    width: 480
+  - path: 'youtube/bpi0KBzs23w.jpg.webp'
+    height: 360
+    width: 480
+  - path: 'youtube/CkmY1kb6vq8.jpg.webp'
+    height: 360
+    width: 480
+  - path: 'youtube/wM3MnO3H8jE.jpg.webp'
+    height: 360
+    width: 480
+  - path: 'youtube/wM3MnO3H8jE.jpg'
+    height: 360
+    width: 480
+  - path: 'youtube/CkmY1kb6vq8.jpg'
+    height: 360
+    width: 480
+  - path: 'youtube/jNQXAC9IVRw.jpg'
+    height: 360
+    width: 480
+  - path: 'frost_layout-overview.png'
+    height: 1564
+    width: 668
+  - path: 'frost_hero-atomic-stripe-edit.png.webp'
+    height: 1090
+    width: 1304
+  - path: 'frost_stripe-atomic-content.png'
+    height: 758
+    width: 1334
+  - path: 'frost_cards-demo.png'
+    height: 421
+    width: 687
+  - path: 'frost_hero-event-bundle-config.png'
+    height: 1183
+    width: 1341
+  - path: 'undraw_To_do_list_re_9nt7.png.webp'
+    height: 629
+    width: 1089
+  - path: 'frost_css-and-js.jpg.webp'
+    height: 1547
+    width: 1275
+  - path: 'frost_accordion-demo.png.webp'
+    height: 325
+    width: 639
+  - path: 'frost_default_stripe_backgrounds.png.webp'
+    height: 1683
+    width: 1439
+  - path: 'frost_stripe-atomic-content.png.webp'
+    height: 758
+    width: 1334
+  - path: 'frost_mobile-tray.png.webp'
+    height: 745
+    width: 496
+  - path: 'undraw_To_do_list_re_9nt7.png'
+    height: 629
+    width: 1089
+  - path: 'frost_message-demo.png'
+    height: 257
+    width: 821
+  - path: 'frost_hero-bundle-event.png'
+    height: 724
+    width: 1216
+  - path: 'undraw_welcome_3gvl.png.webp'
+    height: 891
+    width: 1108
+  - path: '1200x630/workstation.jpg'
     height: 630
     width: 1200
-  - path: '1200x630/share_jamstack-full.png.webp'
+  - path: '1200x630/share_jamstack-starter.png.webp'
     height: 630
     width: 1200
-  - path: '1200x630/share_drupal-website.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_jamstack-starter.png'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_products.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_consultation.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_introducing-frost.png'
-    height: 630
-    width: 1200
-  - path: '1200x630/deneau.jpg.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/banana-invert.jpg'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_support.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_sprint.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/banana-invert.jpg.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/finished-starter.jpg'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_block-hours.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_work-by-the-hour.png'
-    height: 630
-    width: 1200
-  - path: '1200x630/top-secret.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/czerniaks.jpg'
-    height: 630
-    width: 1200
-  - path: '1200x630/brad-czerniak.jpg.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_pie-in-the-sky.png'
+  - path: '1200x630/share_pie-in-the-sky.png.webp'
     height: 630
     width: 1200
   - path: '1200x630/banana.jpg.webp'
     height: 630
     width: 1200
-  - path: '1200x630/axehead.jpg.webp'
+  - path: '1200x630/share_introducing-frost.png'
     height: 630
     width: 1200
-  - path: '1200x630/share_frost-design-handoff.png'
+  - path: '1200x630/frost_home-page.jpg'
     height: 630
     width: 1200
-  - path: '1200x630/frost_mobile-drawer.jpg'
+  - path: '1200x630/shelbybrad.jpg'
     height: 630
     width: 1200
-  - path: '1200x630/frost_home-edit.jpg.webp'
+  - path: '1200x630/shelbybrad.jpg.webp'
     height: 630
     width: 1200
-  - path: '1200x630/finished-starter.jpg.webp'
+  - path: '1200x630/share_drop-everything.png.webp'
     height: 630
     width: 1200
-  - path: '1200x630/share_thriving.png'
+  - path: '1200x630/share_work-by-the-hour.png'
     height: 630
     width: 1200
-  - path: '1200x630/cytonn-photography-n95VMLxqM2I-unsplash.jpg.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/workstation.jpg.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/frost-drupal-demonstration.jpg.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_frost-design-handoff.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/bradczerniak.jpg'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_developers-lead.png'
-    height: 630
-    width: 1200
-  - path: '1200x630/frost_seo-editing-experience.jpg.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/workstation.jpg'
+  - path: '1200x630/frost_iqstrategix-home-hero.jpg.webp'
     height: 630
     width: 1200
   - path: '1200x630/brad-czerniak.jpg'
     height: 630
     width: 1200
-  - path: '1200x630/share_faqs.png'
+  - path: '1200x630/john-locke.jpg.webp'
     height: 630
     width: 1200
-  - path: '1200x630/frost_home-edit.jpg'
+  - path: '1200x630/frost-drupal-demonstration.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_starshot-strategy.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_developers-lead.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/frost_wuh-home-cta.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_support.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/banana.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/finished-starter.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_sprint.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_block-hours.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/axehead.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_developers-lead.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_jamstack-starter.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_jamstack-full.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/axehead.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_work-by-the-hour.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/frost-drupal-demonstration.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/czerniaks.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/lowerbarriers.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_about-so1ve.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/frost_wuh-home-cta.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/noaa-aySTZ82UGus-unsplash.jpg.webp'
+    height: 631
+    width: 1200
+  - path: '1200x630/top-secret.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_frost-design-handoff.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_about-so1ve.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/czerniaks.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/frost_mobile-drawer.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_drupal-website.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/noaa-aySTZ82UGus-unsplash.jpg'
+    height: 631
+    width: 1200
+  - path: '1200x630/share_drupal-website.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/frost_home-page.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_thriving.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/frost_iqstrategix-home-hero.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_sprint.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_block-hours.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/top-secret.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_introducing-frost.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_products.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_faqs.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_starshot-strategy.png'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_github-org-template.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/lowerbarriers.jpg'
     height: 630
     width: 1200
   - path: '1200x630/frost_seo-editing-experience.jpg'
@@ -125,373 +335,115 @@ images:
   - path: '1200x630/share_how-much-more-effort.png'
     height: 630
     width: 1200
-  - path: '1200x630/axehead.jpg'
+  - path: '1200x630/brad-czerniak.jpg.webp'
     height: 630
     width: 1200
-  - path: '1200x630/frost_wuh-home-cta.jpg.webp'
+  - path: '1200x630/share_frost-design-handoff.png.webp'
     height: 630
     width: 1200
-  - path: '1200x630/frost_iqstrategix-home-hero.jpg'
+  - path: '1200x630/banana-invert.jpg.webp'
     height: 630
     width: 1200
-  - path: '1200x630/share_drop-everything.png'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_introducing-frost.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_sprint.png'
-    height: 630
-    width: 1200
-  - path: '1200x630/frost_home-page.jpg'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_github-org-template.png'
-    height: 630
-    width: 1200
-  - path: '1200x630/czerniaks.jpg.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/noaa-aySTZ82UGus-unsplash.jpg'
-    height: 631
-    width: 1200
-  - path: '1200x630/share_github-org-template.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_consultation.png'
-    height: 630
-    width: 1200
-  - path: '1200x630/banana.jpg'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_thriving.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/deneau.jpg'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_drop-everything.png.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/john-locke.jpg'
+  - path: '1200x630/frost_home-edit.jpg.webp'
     height: 630
     width: 1200
   - path: '1200x630/share_products.png'
     height: 630
     width: 1200
-  - path: '1200x630/frost_wuh-home-cta.jpg'
+  - path: '1200x630/share_how-much-more-effort.png.webp'
     height: 630
     width: 1200
-  - path: '1200x630/share_drupal-website.png'
+  - path: '1200x630/deneau.jpg'
     height: 630
     width: 1200
-  - path: '1200x630/shelbybrad.jpg.webp'
+  - path: '1200x630/share_pie-in-the-sky.png'
     height: 630
     width: 1200
-  - path: '1200x630/frost_home-page.jpg.webp'
+  - path: '1200x630/workstation.jpg.webp'
     height: 630
     width: 1200
-  - path: '1200x630/share_developers-lead.png.webp'
+  - path: '1200x630/deneau.jpg.webp'
     height: 630
     width: 1200
-  - path: '1200x630/john-locke.jpg.webp'
+  - path: '1200x630/cytonn-photography-n95VMLxqM2I-unsplash.jpg.webp'
     height: 630
     width: 1200
-  - path: '1200x630/lowerbarriers.jpg'
+  - path: '1200x630/share_consultation.png'
     height: 630
     width: 1200
-  - path: '1200x630/frost-drupal-demonstration.jpg'
+  - path: '1200x630/finished-starter.jpg'
     height: 630
-    width: 1200
-  - path: '1200x630/frost_iqstrategix-home-hero.jpg.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/frost_mobile-drawer.jpg.webp'
-    height: 630
-    width: 1200
-  - path: '1200x630/share_about-so1ve.png'
-    height: 630
-    width: 1200
-  - path: '1200x630/cytonn-photography-n95VMLxqM2I-unsplash.jpg'
-    height: 630
-    width: 1200
-  - path: '1200x630/noaa-aySTZ82UGus-unsplash.jpg.webp'
-    height: 631
     width: 1200
   - path: '1200x630/bradczerniak.jpg.webp'
     height: 630
     width: 1200
-  - path: '1200x630/share_about-so1ve.png.webp'
+  - path: '1200x630/share_thriving.png.webp'
     height: 630
     width: 1200
-  - path: '1200x630/share_pie-in-the-sky.png.webp'
+  - path: '1200x630/frost_home-edit.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_faqs.png'
     height: 630
     width: 1200
   - path: '1200x630/share_jamstack-full.png'
     height: 630
     width: 1200
-  - path: '1200x630/top-secret.png'
+  - path: '1200x630/john-locke.jpg'
     height: 630
     width: 1200
-  - path: '1200x630/lowerbarriers.jpg.webp'
+  - path: '1200x630/share_github-org-template.png'
     height: 630
     width: 1200
-  - path: '1200x630/share_jamstack-starter.png.webp'
+  - path: '1200x630/cytonn-photography-n95VMLxqM2I-unsplash.jpg'
     height: 630
     width: 1200
-  - path: '1200x630/share_faqs.png.webp'
+  - path: '1200x630/frost_mobile-drawer.jpg.webp'
     height: 630
     width: 1200
-  - path: '1200x630/shelbybrad.jpg'
+  - path: '1200x630/frost_seo-editing-experience.jpg.webp'
     height: 630
     width: 1200
-  - path: '1200x630/share_work-by-the-hour.png.webp'
+  - path: '1200x630/share_drop-everything.png'
     height: 630
     width: 1200
-  - path: '1200x630/share_block-hours.png'
+  - path: '1200x630/share_consultation.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/bradczerniak.jpg'
     height: 630
     width: 1200
   - path: '1200x630/share_support.png'
     height: 630
     width: 1200
-  - path: 'brands/screenshots/zenput.png'
+  - path: '1200x630/banana-invert.jpg'
     height: 630
     width: 1200
-  - path: 'brands/screenshots/asu-stemteachers.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/zenput.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/pgc.png'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/symmetri.png'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/spczgivingback.png'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/iqstrategix.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/iqstrategix.png'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/provisio.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/spczgivingback.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/asu-stemteachers.png'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/axehead.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/principal-financial-group.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/umadmissions.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/nypl.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/principal-financial-group.png'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/pgc.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/provisio.png'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/axehead.png'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/bowerswilkins.png'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/symmetri.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/doj.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/doj.png'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/nypl.png'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/bowerswilkins.png.webp'
-    height: 630
-    width: 1200
-  - path: 'brands/screenshots/umadmissions.png'
-    height: 630
-    width: 1200
-  - path: 'brands/logos/zenput.png'
-    height: 303
-    width: 720
-  - path: 'brands/logos/zenput.png.webp'
-    height: 303
-    width: 720
-  - path: 'brands/logos/pgc.png'
-    height: 122
-    width: 196
-  - path: 'brands/logos/arizona-state-university-stemteachers.png'
-    height: 234
-    width: 303
-  - path: 'brands/logos/symmetri.png'
-    height: 100
-    width: 320
-  - path: 'brands/logos/axehead.jpg.webp'
-    height: 133
-    width: 244
-  - path: 'brands/logos/iqstrategix.png.webp'
-    height: 85
-    width: 326
-  - path: 'brands/logos/iqstrategix.png'
-    height: 85
-    width: 326
-  - path: 'brands/logos/provisio.png.webp'
-    height: 140
-    width: 1000
-  - path: 'brands/logos/axehead.jpg'
-    height: 133
-    width: 244
-  - path: 'brands/logos/principal-financial-group.png.webp'
-    height: 743
-    width: 2560
-  - path: 'brands/logos/umadmissions.png.webp'
-    height: 200
-    width: 300
-  - path: 'brands/logos/arizona-state-university-stemteachers.png.webp'
-    height: 234
-    width: 303
-  - path: 'brands/logos/nypl.png.webp'
-    height: 158
-    width: 253
-  - path: 'brands/logos/principal-financial-group.png'
-    height: 743
-    width: 2560
-  - path: 'brands/logos/pgc.png.webp'
-    height: 122
-    width: 196
-  - path: 'brands/logos/provisio.png'
-    height: 140
-    width: 1000
-  - path: 'brands/logos/bowerswilkins.png'
-    height: 271
-    width: 400
-  - path: 'brands/logos/symmetri.png.webp'
-    height: 100
-    width: 320
-  - path: 'brands/logos/doj.png.webp'
-    height: 206
-    width: 350
-  - path: 'brands/logos/doj.png'
-    height: 206
-    width: 350
-  - path: 'brands/logos/nypl.png'
-    height: 158
-    width: 253
-  - path: 'brands/logos/bowerswilkins.png.webp'
-    height: 271
-    width: 400
-  - path: 'brands/logos/umadmissions.png'
-    height: 200
-    width: 300
-  - path: 'frost_wysiwyg-filtered.png'
-    height: 246
-    width: 772
-  - path: 'frost_cards-demo.png'
-    height: 421
-    width: 687
-  - path: 'time-value.jpg.webp'
-    height: 600
-    width: 600
-  - path: 'solve-it-once_github_screencap.png'
-    height: 1253
-    width: 1252
-  - path: 'frost_hero-atomic-stripe-edit.png.webp'
-    height: 1090
-    width: 1304
-  - path: 'frost_hotspot-demo.png'
-    height: 296
-    width: 416
-  - path: 'frost_blockquote-demo.png.webp'
-    height: 199
-    width: 639
-  - path: 'michigan-drupal.png'
-    height: 600
-    width: 600
-  - path: 'frost_accordion-in-tab.jpg.webp'
-    height: 897
-    width: 1337
-  - path: 'in-css/hero-home.jpg'
-    height: 972
-    width: 1920
-  - path: 'in-css/eric-prouzet-tD49mqo7sjE-unsplash.jpg.webp'
-    height: 1278
-    width: 1920
-  - path: 'in-css/no-h8.jpg'
-    height: 1280
-    width: 1920
-  - path: 'in-css/eric-prouzet-tD49mqo7sjE-unsplash.jpg'
-    height: 1278
-    width: 1920
-  - path: 'in-css/no-h8.jpg.webp'
-    height: 1280
-    width: 1920
-  - path: 'in-css/hero-home.jpg.webp'
-    height: 972
-    width: 1920
-  - path: 'frost_default_stripe_backgrounds.png'
-    height: 1683
-    width: 1439
   - path: 'frost_hero-atomic-stripe-edit.png'
     height: 1090
     width: 1304
-  - path: 'badges/spczgivingback.png'
-    height: 178
-    width: 200
-  - path: 'badges/pantheon.png.webp'
-    height: 178
-    width: 200
-  - path: 'badges/spczgivingback.png.webp'
-    height: 178
-    width: 200
-  - path: 'badges/pantheon.png'
-    height: 178
-    width: 200
-  - path: 'solve-it-once_github_screencap.png.webp'
-    height: 1253
-    width: 1252
-  - path: 'frost_privacy-policy.jpg'
+  - path: 'frost_privacy-policy.jpg.webp'
     height: 1547
     width: 1345
-  - path: 'frost_teasers_side-by-side.png.webp'
-    height: 516
-    width: 1272
-  - path: 'frost_hero-fallback.png.webp'
-    height: 608
-    width: 1027
-  - path: 'frost_hero-event-bundle-config.png.webp'
-    height: 1183
-    width: 1341
-  - path: 'required/tile.png'
-    height: 558
-    width: 558
+  - path: 'required/s.gif.webp'
+    height: 1
+    width: 1
+  - path: 'required/apple-touch-icon.png'
+    height: 192
+    width: 192
   - path: 'required/s.gif'
     height: 1
     width: 1
   - path: 'required/demo.jpg.webp'
     height: 630
     width: 1200
-  - path: 'required/demo_bw.jpg.webp'
+  - path: 'required/logo.png.webp'
+    height: 375
+    width: 640
+  - path: 'required/tile.png.webp'
+    height: 558
+    width: 558
+  - path: 'required/demo.jpg'
     height: 630
     width: 1200
   - path: 'required/logo-mark_512.png.webp'
@@ -500,177 +452,237 @@ images:
   - path: 'required/demo_bw.jpg'
     height: 630
     width: 1200
-  - path: 'required/tile.png.webp'
-    height: 558
-    width: 558
-  - path: 'required/demo.jpg'
-    height: 630
-    width: 1200
-  - path: 'required/s.webp'
-    height: 
-    width: 
   - path: 'required/tile-wide.png'
     height: 270
     width: 558
-  - path: 'required/tile-wide.png.webp'
-    height: 270
-    width: 558
-  - path: 'required/logo-mark_512.png'
-    height: 512
-    width: 512
-  - path: 'required/meta-image--default.jpg.webp'
+  - path: 'required/s.webp'
+    height: 
+    width: 
+  - path: 'required/demo_bw.jpg.webp'
     height: 630
     width: 1200
-  - path: 'required/logo.png.webp'
-    height: 375
-    width: 640
-  - path: 'required/meta-image--default.jpg'
-    height: 630
-    width: 1200
-  - path: 'required/apple-touch-icon.png'
-    height: 192
-    width: 192
-  - path: 'required/apple-touch-icon.png.webp'
-    height: 192
-    width: 192
-  - path: 'required/s.gif.webp'
-    height: 1
-    width: 1
   - path: 'required/logo.png'
     height: 375
     width: 640
-  - path: 'frost_privacy-policy.jpg.webp'
-    height: 1547
-    width: 1345
-  - path: 'bpcz_signature.png.webp'
-    height: 78
-    width: 300
-  - path: 'frost_css-and-js.jpg.webp'
-    height: 1547
-    width: 1275
-  - path: 'frost_accordion-in-tab.jpg'
-    height: 897
-    width: 1337
-  - path: 'frost_stripe-atomic-settings.png.webp'
-    height: 1872
-    width: 1317
-  - path: 'frost_cards-demo.png.webp'
-    height: 421
-    width: 687
-  - path: 'frost_hero-fallback.png'
-    height: 608
-    width: 1027
-  - path: 'undraw_welcome_3gvl.png.webp'
-    height: 891
-    width: 1108
-  - path: 'undraw_To_do_list_re_9nt7.png'
-    height: 629
-    width: 1089
-  - path: 'frost_hero-bundle-event.png'
-    height: 724
-    width: 1216
-  - path: 'frost_hero-stripe-atomic.png'
-    height: 458
-    width: 1304
-  - path: 'frost_message-demo.png'
-    height: 257
-    width: 821
-  - path: 'frost_accordion-demo.png'
-    height: 325
-    width: 639
-  - path: 'frost_hero-stripe-atomic.png.webp'
-    height: 458
-    width: 1304
-  - path: 'frost_default_stripe_backgrounds.png.webp'
-    height: 1683
-    width: 1439
-  - path: 'frost_mobile-tray.png.webp'
-    height: 745
-    width: 496
+  - path: 'required/logo-mark_512.png'
+    height: 512
+    width: 512
+  - path: 'required/tile.png'
+    height: 558
+    width: 558
+  - path: 'required/apple-touch-icon.png.webp'
+    height: 192
+    width: 192
+  - path: 'required/meta-image--default.jpg'
+    height: 630
+    width: 1200
+  - path: 'required/tile-wide.png.webp'
+    height: 270
+    width: 558
+  - path: 'required/meta-image--default.jpg.webp'
+    height: 630
+    width: 1200
   - path: 'frost_blockquote-demo.png'
     height: 199
     width: 639
-  - path: 'time-value.jpg'
+  - path: 'frost_cards-demo.png.webp'
+    height: 421
+    width: 687
+  - path: 'michigan-drupal.png'
     height: 600
     width: 600
-  - path: 'undraw_To_do_list_re_9nt7.png.webp'
-    height: 629
-    width: 1089
-  - path: 'frost_hero-bundle-event.png.webp'
-    height: 724
-    width: 1216
-  - path: 'frost_hotspot-demo.png.webp'
-    height: 296
-    width: 416
-  - path: 'frost_css-and-js.jpg'
-    height: 1547
-    width: 1275
+  - path: 'time-value.jpg.webp'
+    height: 600
+    width: 600
   - path: 'undraw_welcome_3gvl.png'
     height: 891
     width: 1108
-  - path: 'frost_layout-overview.png'
-    height: 1564
-    width: 668
-  - path: 'frost_message-demo.png.webp'
-    height: 257
-    width: 821
-  - path: 'frost_accordion-demo.png.webp'
-    height: 325
-    width: 639
-  - path: 'frost_hero-event-bundle-config.png'
-    height: 1183
-    width: 1341
-  - path: 'frost_mobile-tray.png'
-    height: 745
-    width: 496
-  - path: 'frost_stripe-atomic-settings.png'
-    height: 1872
-    width: 1317
-  - path: 'michigan-drupal.png.webp'
-    height: 600
-    width: 600
-  - path: 'frost_header-footer-desktop.png.webp'
-    height: 668
-    width: 1269
-  - path: 'frost_stripe-atomic-content.png'
-    height: 758
-    width: 1334
-  - path: 'frost_stripe-atomic-content.png.webp'
-    height: 758
-    width: 1334
+  - path: 'solve-it-once_github_screencap.png.webp'
+    height: 1253
+    width: 1252
   - path: 'bpcz_signature.png'
     height: 78
     width: 300
-  - path: 'youtube/jNQXAC9IVRw.jpg.webp'
-    height: 360
-    width: 480
-  - path: 'youtube/wM3MnO3H8jE.jpg'
-    height: 360
-    width: 480
-  - path: 'youtube/wM3MnO3H8jE.jpg.webp'
-    height: 360
-    width: 480
-  - path: 'youtube/bpi0KBzs23w.jpg'
-    height: 360
-    width: 480
-  - path: 'youtube/CkmY1kb6vq8.jpg'
-    height: 360
-    width: 480
-  - path: 'youtube/CkmY1kb6vq8.jpg.webp'
-    height: 360
-    width: 480
-  - path: 'youtube/bpi0KBzs23w.jpg.webp'
-    height: 360
-    width: 480
-  - path: 'youtube/jNQXAC9IVRw.jpg'
-    height: 360
-    width: 480
-  - path: 'frost_wysiwyg-filtered.png.webp'
+  - path: 'bpcz_signature.png.webp'
+    height: 78
+    width: 300
+  - path: 'time-value.jpg'
+    height: 600
+    width: 600
+  - path: 'frost_accordion-in-tab.jpg'
+    height: 897
+    width: 1337
+  - path: 'brands/screenshots/doj.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/iqstrategix.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/asu-stemteachers.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/pgc.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/asu-stemteachers.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/symmetri.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/principal-financial-group.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/provisio.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/symmetri.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/spczgivingback.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/zenput.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/axehead.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/umadmissions.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/bowerswilkins.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/pgc.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/iqstrategix.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/spczgivingback.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/zenput.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/provisio.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/umadmissions.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/nypl.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/axehead.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/bowerswilkins.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/nypl.png'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/doj.png.webp'
+    height: 630
+    width: 1200
+  - path: 'brands/screenshots/principal-financial-group.png'
+    height: 630
+    width: 1200
+  - path: 'brands/logos/doj.png'
+    height: 206
+    width: 350
+  - path: 'brands/logos/iqstrategix.png'
+    height: 85
+    width: 326
+  - path: 'brands/logos/arizona-state-university-stemteachers.png'
+    height: 234
+    width: 303
+  - path: 'brands/logos/pgc.png.webp'
+    height: 122
+    width: 196
+  - path: 'brands/logos/symmetri.png'
+    height: 100
+    width: 320
+  - path: 'brands/logos/axehead.jpg'
+    height: 133
+    width: 244
+  - path: 'brands/logos/principal-financial-group.png.webp'
+    height: 743
+    width: 2560
+  - path: 'brands/logos/provisio.png'
+    height: 140
+    width: 1000
+  - path: 'brands/logos/axehead.jpg.webp'
+    height: 133
+    width: 244
+  - path: 'brands/logos/symmetri.png.webp'
+    height: 100
+    width: 320
+  - path: 'brands/logos/zenput.png.webp'
+    height: 303
+    width: 720
+  - path: 'brands/logos/umadmissions.png'
+    height: 200
+    width: 300
+  - path: 'brands/logos/bowerswilkins.png'
+    height: 271
+    width: 400
+  - path: 'brands/logos/pgc.png'
+    height: 122
+    width: 196
+  - path: 'brands/logos/iqstrategix.png.webp'
+    height: 85
+    width: 326
+  - path: 'brands/logos/zenput.png'
+    height: 303
+    width: 720
+  - path: 'brands/logos/provisio.png.webp'
+    height: 140
+    width: 1000
+  - path: 'brands/logos/umadmissions.png.webp'
+    height: 200
+    width: 300
+  - path: 'brands/logos/nypl.png.webp'
+    height: 158
+    width: 253
+  - path: 'brands/logos/bowerswilkins.png.webp'
+    height: 271
+    width: 400
+  - path: 'brands/logos/nypl.png'
+    height: 158
+    width: 253
+  - path: 'brands/logos/arizona-state-university-stemteachers.png.webp'
+    height: 234
+    width: 303
+  - path: 'brands/logos/doj.png.webp'
+    height: 206
+    width: 350
+  - path: 'brands/logos/principal-financial-group.png'
+    height: 743
+    width: 2560
+  - path: 'frost_css-and-js.jpg'
+    height: 1547
+    width: 1275
+  - path: 'frost_stripe-atomic-settings.png'
+    height: 1872
+    width: 1317
+  - path: 'frost_mobile-tray.png'
+    height: 745
+    width: 496
+  - path: 'frost_header-footer-desktop.png'
+    height: 668
+    width: 1269
+  - path: 'frost_hero-fallback.png.webp'
+    height: 608
+    width: 1027
+  - path: 'frost_hero-bundle-event.png.webp'
+    height: 724
+    width: 1216
+  - path: 'frost_header-footer-desktop.png.webp'
+    height: 668
+    width: 1269
+  - path: 'frost_wysiwyg-filtered.png'
     height: 246
     width: 772
-  - path: 'flipped-brad-sqthmb200.jpg.webp'
-    height: 200
-    width: 200
-  - path: 'flipped-brad-sqthmb200.jpg'
-    height: 200
-    width: 200

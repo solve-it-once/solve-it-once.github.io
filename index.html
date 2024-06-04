@@ -121,9 +121,25 @@ title: "Home"
       agile principles</a> and <br /><a href="https://www.frostdrupal.com/">use past success as our starting point</a>.
     </p>
 
+    {% include atoms/heading.html
+      children="Shop now"
+      classes="font-family--secondary heading--h2"
+      level="3"
+    %}
+
     {% include atoms/spacer.html size="4" %}
 
-    <a class="button cta" href="{{ site.subpath }}{% link collections/pages/products.html %}">Shop now</a>
+    <ul class="list-style--none layout--multiple--horizontal">
+      {% for product in site.products limit:3  %}
+        {% include molecules/card.html
+          entity=product
+        %}
+      {% endfor %}
+    </ul>
+
+    {% include atoms/spacer.html size="4" %}
+
+    <a class="button cta" href="{{ site.subpath }}{% link collections/pages/products.html %}">More products</a>
   </div>
 </section>
 
