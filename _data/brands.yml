@@ -32,7 +32,7 @@ brands:
     screenshot: "brands/screenshots/umadmissions.png"
     slug: "umadmissions"
   - href: "https://www.iqstrategix.com/"
-    active: true
+    active: false
     subcontract: false
     date_range: "2020/11 - present"
     description: "The IQxCloud Knowledge platform is designed to enable non-programming professionals to rapidly harvest and share knowledge"
@@ -50,7 +50,7 @@ brands:
     screenshot: "brands/screenshots/nypl.png"
     slug: "nypl"
   - href: "https://provisiosolutions.com/"
-    active: true
+    active: false
     subcontract: false
     date_range: "2021/09 - present"
     description: "Provisio does a lot more than build websites. We create awesome digital experiences."
@@ -86,7 +86,7 @@ brands:
     screenshot: "brands/screenshots/doj.png"
     slug: "doj"
   - href: "https://symmetrimarketing.com/"
-    active: true
+    active: false
     subcontract: true
     date_range: "2023/05 - present"
     description: "Symmetri is a full service Brand Identity, Digital Marketing, and Web development Agency. "

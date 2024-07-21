@@ -209,6 +209,9 @@ images:
   - path: '1200x630/frost-drupal-demonstration.jpg.webp'
     height: 630
     width: 1200
+  - path: '1200x630/share_star-frost.png.webp'
+    height: 630
+    width: 1200
   - path: '1200x630/share_starshot-strategy.png.webp'
     height: 630
     width: 1200
@@ -231,6 +234,9 @@ images:
     height: 630
     width: 1200
   - path: '1200x630/share_block-hours.png.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/share_star-frost.png'
     height: 630
     width: 1200
   - path: '1200x630/axehead.jpg'
